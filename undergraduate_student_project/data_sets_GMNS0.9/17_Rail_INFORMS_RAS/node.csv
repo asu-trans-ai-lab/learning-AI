@@ -1,0 +1,14 @@
+name,node_id,zone_id,control_type,control_type_name,cycle_length_in_second,x_coord,y_coord
+,0,1,0,unknown_control,0,0,0
+,1,2,0,unknown_control,0,18,0
+,2,3,0,unknown_control,0,18.1,1
+,3,4,0,unknown_control,0,19,0
+,4,5,0,unknown_control,0,19.9,1
+,5,6,0,unknown_control,0,20,0
+,6,7,0,unknown_control,0,40,0
+,7,8,0,unknown_control,0,58,0
+,8,9,0,unknown_control,0,59,0
+,9,10,0,unknown_control,0,58.1,1
+,10,11,0,unknown_control,0,59.9,1
+,11,12,0,unknown_control,0,60,0
+,12,13,0,unknown_control,0,80,0

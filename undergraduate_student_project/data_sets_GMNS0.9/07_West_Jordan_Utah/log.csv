@@ -1,0 +1,919 @@
+STALite Log           
+Step 1: Reading input data
+Step 1.1: Reading section [demand_period] in setting.csv...
+number of demand periods = 1
+Step 1.2: Reading section [link_type] in setting.csv...
+important: traffic_flow_code on link type 1 is 3
+important: traffic_flow_code on link type 2 is 2
+important: traffic_flow_code on link type 3 is 2
+important: traffic_flow_code on link type 4 is 2
+important: traffic_flow_code on link type 5 is 1
+important: traffic_flow_code on link type 20 is 1
+important: traffic_flow_code on link type 99 is 1
+number of link types = 8
+Step 1.3: Reading section [agent_type] in setting.csv...
+number of agent typess = 1
+Step 1.4: Reading node data in node.csv...
+number of nodes = 149
+Step 1.5: Initializing O-D zone vector...
+number of zones = 41
+Step 1.6: Reading link data in link.csv... 
+number of links = 378
+number of links =460
+Step 1.7: Reading service arc in timing.csv...
+
+Step 1.8: Reading file section [demand_file_list] in setting.csv...
+number of timing records = 0
+
+allocating 4D memory for 0 zones
+allocating 3D memory for 0
+
+Step 1.8: Reading file section [demand_file_list] in setting.csv...
+o_zone_id:1, d_zone_id: 1, value = 40.513187
+o_zone_id:1, d_zone_id: 2, value = 30.369238
+o_zone_id:1, d_zone_id: 3, value = 61.239410
+o_zone_id:1, d_zone_id: 4, value = 2.942998
+o_zone_id:1, d_zone_id: 5, value = 21.039307
+o_zone_id:1, d_zone_id: 6, value = 28.052408
+total_demand_volume is 26042.109375
+
+Step 2: Assigning computing tasks to memory blocks...
+There are 4 networks in memory.
+
+Step 3: Column Generation for Traffic Assignment...
+Total Column Generation iteration: 20
+
+Current iteration number:0
+Current CPU time: 0.037000 s
+
+Current iteration number:1
+Current CPU time: 0.103000 s
+
+Current iteration number:2
+Current CPU time: 0.133000 s
+
+Current iteration number:3
+Current CPU time: 0.206000 s
+
+Current iteration number:4
+Current CPU time: 0.264000 s
+
+Current iteration number:5
+Current CPU time: 0.304000 s
+
+Current iteration number:6
+Current CPU time: 0.400000 s
+
+Current iteration number:7
+Current CPU time: 0.487000 s
+
+Current iteration number:8
+Current CPU time: 0.521000 s
+
+Current iteration number:9
+Current CPU time: 0.601000 s
+
+Current iteration number:10
+Current CPU time: 0.735000 s
+
+Current iteration number:11
+Current CPU time: 0.840000 s
+
+Current iteration number:12
+Current CPU time: 0.925000 s
+
+Current iteration number:13
+Current CPU time: 0.963000 s
+
+Current iteration number:14
+Current CPU time: 1.004000 s
+
+Current iteration number:15
+Current CPU time: 1.039000 s
+
+Current iteration number:16
+Current CPU time: 1.080000 s
+
+Current iteration number:17
+Current CPU time: 1.151000 s
+
+Current iteration number:18
+Current CPU time: 1.232000 s
+
+Current iteration number:19
+Current CPU time: 1.318000 s
+
+Step 4: Column Pool Updating
+Total Column Pool Updating iteration: 400
+Current iteration number: 0
+Current iteration number: 1
+Current iteration number: 2
+Current iteration number: 3
+Current iteration number: 4
+Current iteration number: 5
+Current iteration number: 6
+Current iteration number: 7
+Current iteration number: 8
+Current iteration number: 9
+Current iteration number: 10
+Current iteration number: 11
+Current iteration number: 12
+Current iteration number: 13
+Current iteration number: 14
+Current iteration number: 15
+Current iteration number: 16
+Current iteration number: 17
+Current iteration number: 18
+Current iteration number: 19
+Current iteration number: 20
+Current iteration number: 21
+Current iteration number: 22
+Current iteration number: 23
+Current iteration number: 24
+Current iteration number: 25
+Current iteration number: 26
+Current iteration number: 27
+Current iteration number: 28
+Current iteration number: 29
+Current iteration number: 30
+Current iteration number: 31
+Current iteration number: 32
+Current iteration number: 33
+Current iteration number: 34
+Current iteration number: 35
+Current iteration number: 36
+Current iteration number: 37
+Current iteration number: 38
+Current iteration number: 39
+Current iteration number: 40
+Current iteration number: 41
+Current iteration number: 42
+Current iteration number: 43
+Current iteration number: 44
+Current iteration number: 45
+Current iteration number: 46
+Current iteration number: 47
+Current iteration number: 48
+Current iteration number: 49
+Current iteration number: 50
+Current iteration number: 51
+Current iteration number: 52
+Current iteration number: 53
+Current iteration number: 54
+Current iteration number: 55
+Current iteration number: 56
+Current iteration number: 57
+Current iteration number: 58
+Current iteration number: 59
+Current iteration number: 60
+Current iteration number: 61
+Current iteration number: 62
+Current iteration number: 63
+Current iteration number: 64
+Current iteration number: 65
+Current iteration number: 66
+Current iteration number: 67
+Current iteration number: 68
+Current iteration number: 69
+Current iteration number: 70
+Current iteration number: 71
+Current iteration number: 72
+Current iteration number: 73
+Current iteration number: 74
+Current iteration number: 75
+Current iteration number: 76
+Current iteration number: 77
+Current iteration number: 78
+Current iteration number: 79
+Current iteration number: 80
+Current iteration number: 81
+Current iteration number: 82
+Current iteration number: 83
+Current iteration number: 84
+Current iteration number: 85
+Current iteration number: 86
+Current iteration number: 87
+Current iteration number: 88
+Current iteration number: 89
+Current iteration number: 90
+Current iteration number: 91
+Current iteration number: 92
+Current iteration number: 93
+Current iteration number: 94
+Current iteration number: 95
+Current iteration number: 96
+Current iteration number: 97
+Current iteration number: 98
+Current iteration number: 99
+Current iteration number: 100
+Current iteration number: 101
+Current iteration number: 102
+Current iteration number: 103
+Current iteration number: 104
+Current iteration number: 105
+Current iteration number: 106
+Current iteration number: 107
+Current iteration number: 108
+Current iteration number: 109
+Current iteration number: 110
+Current iteration number: 111
+Current iteration number: 112
+Current iteration number: 113
+Current iteration number: 114
+Current iteration number: 115
+Current iteration number: 116
+Current iteration number: 117
+Current iteration number: 118
+Current iteration number: 119
+Current iteration number: 120
+Current iteration number: 121
+Current iteration number: 122
+Current iteration number: 123
+Current iteration number: 124
+Current iteration number: 125
+Current iteration number: 126
+Current iteration number: 127
+Current iteration number: 128
+Current iteration number: 129
+Current iteration number: 130
+Current iteration number: 131
+Current iteration number: 132
+Current iteration number: 133
+Current iteration number: 134
+Current iteration number: 135
+Current iteration number: 136
+Current iteration number: 137
+Current iteration number: 138
+Current iteration number: 139
+Current iteration number: 140
+Current iteration number: 141
+Current iteration number: 142
+Current iteration number: 143
+Current iteration number: 144
+Current iteration number: 145
+Current iteration number: 146
+Current iteration number: 147
+Current iteration number: 148
+Current iteration number: 149
+Current iteration number: 150
+Current iteration number: 151
+Current iteration number: 152
+Current iteration number: 153
+Current iteration number: 154
+Current iteration number: 155
+Current iteration number: 156
+Current iteration number: 157
+Current iteration number: 158
+Current iteration number: 159
+Current iteration number: 160
+Current iteration number: 161
+Current iteration number: 162
+Current iteration number: 163
+Current iteration number: 164
+Current iteration number: 165
+Current iteration number: 166
+Current iteration number: 167
+Current iteration number: 168
+Current iteration number: 169
+Current iteration number: 170
+Current iteration number: 171
+Current iteration number: 172
+Current iteration number: 173
+Current iteration number: 174
+Current iteration number: 175
+Current iteration number: 176
+Current iteration number: 177
+Current iteration number: 178
+Current iteration number: 179
+Current iteration number: 180
+Current iteration number: 181
+Current iteration number: 182
+Current iteration number: 183
+Current iteration number: 184
+Current iteration number: 185
+Current iteration number: 186
+Current iteration number: 187
+Current iteration number: 188
+Current iteration number: 189
+Current iteration number: 190
+Current iteration number: 191
+Current iteration number: 192
+Current iteration number: 193
+Current iteration number: 194
+Current iteration number: 195
+Current iteration number: 196
+Current iteration number: 197
+Current iteration number: 198
+Current iteration number: 199
+Current iteration number: 200
+Current iteration number: 201
+Current iteration number: 202
+Current iteration number: 203
+Current iteration number: 204
+Current iteration number: 205
+Current iteration number: 206
+Current iteration number: 207
+Current iteration number: 208
+Current iteration number: 209
+Current iteration number: 210
+Current iteration number: 211
+Current iteration number: 212
+Current iteration number: 213
+Current iteration number: 214
+Current iteration number: 215
+Current iteration number: 216
+Current iteration number: 217
+Current iteration number: 218
+Current iteration number: 219
+Current iteration number: 220
+Current iteration number: 221
+Current iteration number: 222
+Current iteration number: 223
+Current iteration number: 224
+Current iteration number: 225
+Current iteration number: 226
+Current iteration number: 227
+Current iteration number: 228
+Current iteration number: 229
+Current iteration number: 230
+Current iteration number: 231
+Current iteration number: 232
+Current iteration number: 233
+Current iteration number: 234
+Current iteration number: 235
+Current iteration number: 236
+Current iteration number: 237
+Current iteration number: 238
+Current iteration number: 239
+Current iteration number: 240
+Current iteration number: 241
+Current iteration number: 242
+Current iteration number: 243
+Current iteration number: 244
+Current iteration number: 245
+Current iteration number: 246
+Current iteration number: 247
+Current iteration number: 248
+Current iteration number: 249
+Current iteration number: 250
+Current iteration number: 251
+Current iteration number: 252
+Current iteration number: 253
+Current iteration number: 254
+Current iteration number: 255
+Current iteration number: 256
+Current iteration number: 257
+Current iteration number: 258
+Current iteration number: 259
+Current iteration number: 260
+Current iteration number: 261
+Current iteration number: 262
+Current iteration number: 263
+Current iteration number: 264
+Current iteration number: 265
+Current iteration number: 266
+Current iteration number: 267
+Current iteration number: 268
+Current iteration number: 269
+Current iteration number: 270
+Current iteration number: 271
+Current iteration number: 272
+Current iteration number: 273
+Current iteration number: 274
+Current iteration number: 275
+Current iteration number: 276
+Current iteration number: 277
+Current iteration number: 278
+Current iteration number: 279
+Current iteration number: 280
+Current iteration number: 281
+Current iteration number: 282
+Current iteration number: 283
+Current iteration number: 284
+Current iteration number: 285
+Current iteration number: 286
+Current iteration number: 287
+Current iteration number: 288
+Current iteration number: 289
+Current iteration number: 290
+Current iteration number: 291
+Current iteration number: 292
+Current iteration number: 293
+Current iteration number: 294
+Current iteration number: 295
+Current iteration number: 296
+Current iteration number: 297
+Current iteration number: 298
+Current iteration number: 299
+Current iteration number: 300
+Current iteration number: 301
+Current iteration number: 302
+Current iteration number: 303
+Current iteration number: 304
+Current iteration number: 305
+Current iteration number: 306
+Current iteration number: 307
+Current iteration number: 308
+Current iteration number: 309
+Current iteration number: 310
+Current iteration number: 311
+Current iteration number: 312
+Current iteration number: 313
+Current iteration number: 314
+Current iteration number: 315
+Current iteration number: 316
+Current iteration number: 317
+Current iteration number: 318
+Current iteration number: 319
+Current iteration number: 320
+Current iteration number: 321
+Current iteration number: 322
+Current iteration number: 323
+Current iteration number: 324
+Current iteration number: 325
+Current iteration number: 326
+Current iteration number: 327
+Current iteration number: 328
+Current iteration number: 329
+Current iteration number: 330
+Current iteration number: 331
+Current iteration number: 332
+Current iteration number: 333
+Current iteration number: 334
+Current iteration number: 335
+Current iteration number: 336
+Current iteration number: 337
+Current iteration number: 338
+Current iteration number: 339
+Current iteration number: 340
+Current iteration number: 341
+Current iteration number: 342
+Current iteration number: 343
+Current iteration number: 344
+Current iteration number: 345
+Current iteration number: 346
+Current iteration number: 347
+Current iteration number: 348
+Current iteration number: 349
+Current iteration number: 350
+Current iteration number: 351
+Current iteration number: 352
+Current iteration number: 353
+Current iteration number: 354
+Current iteration number: 355
+Current iteration number: 356
+Current iteration number: 357
+Current iteration number: 358
+Current iteration number: 359
+Current iteration number: 360
+Current iteration number: 361
+Current iteration number: 362
+Current iteration number: 363
+Current iteration number: 364
+Current iteration number: 365
+Current iteration number: 366
+Current iteration number: 367
+Current iteration number: 368
+Current iteration number: 369
+Current iteration number: 370
+Current iteration number: 371
+Current iteration number: 372
+Current iteration number: 373
+Current iteration number: 374
+Current iteration number: 375
+Current iteration number: 376
+Current iteration number: 377
+Current iteration number: 378
+Current iteration number: 379
+Current iteration number: 380
+Current iteration number: 381
+Current iteration number: 382
+Current iteration number: 383
+Current iteration number: 384
+Current iteration number: 385
+Current iteration number: 386
+Current iteration number: 387
+Current iteration number: 388
+Current iteration number: 389
+Current iteration number: 390
+Current iteration number: 391
+Current iteration number: 392
+Current iteration number: 393
+Current iteration number: 394
+Current iteration number: 395
+Current iteration number: 396
+Current iteration number: 397
+Current iteration number: 398
+Current iteration number: 399
+
+Step 6: O-D estimation for traffic assignment..
+ODME #0 total abs gap= 76349.914063,subg_link: 674.434143,subg_P: -1044.946289,subg_A: -542.765991
+ODME #1 total abs gap= 75178.046875,subg_link: 892.607910,subg_P: -404.288055,subg_A: 239.269348
+ODME #2 total abs gap= 73414.437500,subg_link: 827.644470,subg_P: -422.542175,subg_A: 192.788681
+ODME #3 total abs gap= 71700.218750,subg_link: 771.362488,subg_P: -431.130798,subg_A: 158.439575
+ODME #4 total abs gap= 70030.648438,subg_link: 723.689575,subg_P: -430.245117,subg_A: 135.730438
+ODME #5 total abs gap= 68388.960938,subg_link: 685.183044,subg_P: -420.666870,subg_A: 123.789467
+ODME #6 total abs gap= 66776.054688,subg_link: 653.719604,subg_P: -404.232788,subg_A: 121.330414
+ODME #7 total abs gap= 65289.605469,subg_link: 628.197144,subg_P: -381.607391,subg_A: 127.005348
+ODME #8 total abs gap= 63859.414063,subg_link: 607.530884,subg_P: -354.898346,subg_A: 140.847687
+ODME #9 total abs gap= 62440.093750,subg_link: 592.195435,subg_P: -324.017822,subg_A: 162.460403
+ODME #10 total abs gap= 61032.699219,subg_link: 582.193726,subg_P: -292.160858,subg_A: 191.295563
+ODME #11 total abs gap= 59608.398438,subg_link: 574.720276,subg_P: -261.391266,subg_A: 225.369690
+ODME #12 total abs gap= 58170.996094,subg_link: 569.971252,subg_P: -231.386261,subg_A: 264.697601
+ODME #13 total abs gap= 56730.902344,subg_link: 568.804565,subg_P: -200.676224,subg_A: 307.811310
+ODME #14 total abs gap= 55312.539063,subg_link: 570.459290,subg_P: -168.948471,subg_A: 355.113464
+ODME #15 total abs gap= 53933.394531,subg_link: 574.642151,subg_P: -136.872452,subg_A: 406.580292
+ODME #16 total abs gap= 52570.796875,subg_link: 581.094910,subg_P: -103.960655,subg_A: 460.413208
+ODME #17 total abs gap= 51226.574219,subg_link: 589.899963,subg_P: -69.622734,subg_A: 516.065979
+ODME #18 total abs gap= 49884.148438,subg_link: 600.283081,subg_P: -34.594547,subg_A: 572.370789
+ODME #19 total abs gap= 48548.687500,subg_link: 611.600403,subg_P: 0.202823,subg_A: 628.086914
+ODME #20 total abs gap= 47237.925781,subg_link: 623.195190,subg_P: 33.429806,subg_A: 682.436401
+ODME #21 total abs gap= 45934.179688,subg_link: 635.325500,subg_P: 66.878548,subg_A: 736.286255
+ODME #22 total abs gap= 44696.156250,subg_link: 648.098694,subg_P: 101.338104,subg_A: 790.114136
+ODME #23 total abs gap= 43470.210938,subg_link: 661.645630,subg_P: 134.617966,subg_A: 845.419495
+ODME #24 total abs gap= 42371.000000,subg_link: 675.450562,subg_P: 165.590286,subg_A: 901.874451
+ODME #25 total abs gap= 41383.605469,subg_link: 687.974548,subg_P: 193.423080,subg_A: 958.522217
+ODME #26 total abs gap= 40482.378906,subg_link: 698.592896,subg_P: 218.470032,subg_A: 1014.289551
+ODME #27 total abs gap= 39626.328125,subg_link: 707.614990,subg_P: 240.569489,subg_A: 1068.949707
+ODME #28 total abs gap= 38801.550781,subg_link: 715.054199,subg_P: 259.915588,subg_A: 1121.523438
+ODME #29 total abs gap= 38045.566406,subg_link: 720.916626,subg_P: 276.767365,subg_A: 1167.750732
+ODME #30 total abs gap= 37277.257813,subg_link: 724.872009,subg_P: 292.552948,subg_A: 1206.405151
+ODME #31 total abs gap= 36488.339844,subg_link: 725.433411,subg_P: 307.226410,subg_A: 1235.305542
+ODME #32 total abs gap= 35665.222656,subg_link: 720.697510,subg_P: 320.312775,subg_A: 1250.018066
+ODME #33 total abs gap= 34845.167969,subg_link: 712.769531,subg_P: 333.371399,subg_A: 1254.819092
+ODME #34 total abs gap= 34038.253906,subg_link: 703.420349,subg_P: 347.421387,subg_A: 1252.081177
+ODME #35 total abs gap= 33241.882813,subg_link: 693.504944,subg_P: 363.237396,subg_A: 1243.821289
+ODME #36 total abs gap= 32459.873047,subg_link: 683.457092,subg_P: 380.916840,subg_A: 1229.804443
+ODME #37 total abs gap= 31692.552734,subg_link: 673.332703,subg_P: 400.217194,subg_A: 1209.656860
+ODME #38 total abs gap= 30940.626953,subg_link: 662.422424,subg_P: 419.000092,subg_A: 1183.454712
+ODME #39 total abs gap= 30199.070313,subg_link: 650.941223,subg_P: 436.865723,subg_A: 1153.636353
+ODME #40 total abs gap= 29463.054688,subg_link: 638.586121,subg_P: 453.216187,subg_A: 1122.267578
+ODME #41 total abs gap= 28736.763672,subg_link: 625.606384,subg_P: 468.617950,subg_A: 1090.990967
+ODME #42 total abs gap= 28025.537109,subg_link: 612.358826,subg_P: 484.089478,subg_A: 1059.562256
+ODME #43 total abs gap= 27340.050781,subg_link: 599.085083,subg_P: 499.911743,subg_A: 1028.010498
+ODME #44 total abs gap= 26684.542969,subg_link: 585.168884,subg_P: 514.321960,subg_A: 996.288574
+ODME #45 total abs gap= 26033.980469,subg_link: 571.284851,subg_P: 526.982849,subg_A: 964.396545
+ODME #46 total abs gap= 25386.701172,subg_link: 557.217285,subg_P: 536.650635,subg_A: 931.914551
+ODME #47 total abs gap= 24744.990234,subg_link: 543.006714,subg_P: 543.923157,subg_A: 899.316772
+ODME #48 total abs gap= 24111.148438,subg_link: 528.886719,subg_P: 549.125549,subg_A: 866.956116
+ODME #49 total abs gap= 23487.824219,subg_link: 514.838562,subg_P: 551.942993,subg_A: 834.955017
+ODME #50 total abs gap= 22877.191406,subg_link: 501.003448,subg_P: 552.475830,subg_A: 803.629517
+ODME #51 total abs gap= 22277.988281,subg_link: 487.328003,subg_P: 549.692749,subg_A: 773.088013
+ODME #52 total abs gap= 21696.468750,subg_link: 473.715210,subg_P: 541.221313,subg_A: 742.998413
+ODME #53 total abs gap= 21131.652344,subg_link: 460.395111,subg_P: 528.655396,subg_A: 713.470581
+ODME #54 total abs gap= 20593.367188,subg_link: 447.449768,subg_P: 511.754120,subg_A: 684.585876
+ODME #55 total abs gap= 20078.591797,subg_link: 435.140564,subg_P: 492.204895,subg_A: 656.721130
+ODME #56 total abs gap= 19579.373047,subg_link: 423.312653,subg_P: 470.486450,subg_A: 629.404419
+ODME #57 total abs gap= 19095.515625,subg_link: 411.961792,subg_P: 447.078522,subg_A: 602.690125
+ODME #58 total abs gap= 18628.150391,subg_link: 401.207550,subg_P: 422.481598,subg_A: 576.855347
+ODME #59 total abs gap= 18177.769531,subg_link: 390.995422,subg_P: 396.810364,subg_A: 551.770996
+ODME #60 total abs gap= 17745.515625,subg_link: 381.284821,subg_P: 370.394440,subg_A: 527.445618
+ODME #61 total abs gap= 17329.396484,subg_link: 372.026611,subg_P: 343.839844,subg_A: 503.898438
+ODME #62 total abs gap= 16927.703125,subg_link: 362.993958,subg_P: 317.250427,subg_A: 480.832520
+ODME #63 total abs gap= 16543.691406,subg_link: 354.207092,subg_P: 290.842957,subg_A: 458.345703
+ODME #64 total abs gap= 16175.376953,subg_link: 345.754089,subg_P: 264.886810,subg_A: 436.569733
+ODME #65 total abs gap= 15825.872070,subg_link: 337.711884,subg_P: 239.784164,subg_A: 415.653625
+ODME #66 total abs gap= 15495.974609,subg_link: 330.076569,subg_P: 215.676575,subg_A: 395.784027
+ODME #67 total abs gap= 15182.938477,subg_link: 322.837280,subg_P: 192.682846,subg_A: 376.954895
+ODME #68 total abs gap= 14884.909180,subg_link: 315.944122,subg_P: 170.824127,subg_A: 359.073914
+ODME #69 total abs gap= 14600.917969,subg_link: 309.361542,subg_P: 150.177734,subg_A: 342.329376
+ODME #70 total abs gap= 14330.363281,subg_link: 303.111816,subg_P: 130.610672,subg_A: 326.417572
+ODME #71 total abs gap= 14072.900391,subg_link: 297.183746,subg_P: 112.078621,subg_A: 311.583557
+ODME #72 total abs gap= 13828.762695,subg_link: 291.605164,subg_P: 94.725929,subg_A: 297.937653
+ODME #73 total abs gap= 13596.826172,subg_link: 286.294861,subg_P: 78.427887,subg_A: 285.062012
+ODME #74 total abs gap= 13376.457031,subg_link: 281.246338,subg_P: 63.197315,subg_A: 273.135986
+ODME #75 total abs gap= 13166.640625,subg_link: 276.424133,subg_P: 48.845406,subg_A: 261.949005
+ODME #76 total abs gap= 12968.119141,subg_link: 271.891327,subg_P: 35.436260,subg_A: 251.499146
+ODME #77 total abs gap= 12779.283203,subg_link: 267.575409,subg_P: 22.855217,subg_A: 241.555206
+ODME #78 total abs gap= 12599.637695,subg_link: 263.522705,subg_P: 11.180660,subg_A: 232.334259
+ODME #79 total abs gap= 12433.263672,subg_link: 259.688202,subg_P: 0.264566,subg_A: 223.563889
+ODME #80 total abs gap= 12276.121094,subg_link: 256.026611,subg_P: -10.023554,subg_A: 215.226669
+ODME #81 total abs gap= 12130.440430,subg_link: 252.539612,subg_P: -19.656181,subg_A: 207.308365
+ODME #82 total abs gap= 11999.581055,subg_link: 249.279968,subg_P: -28.528673,subg_A: 199.929428
+ODME #83 total abs gap= 11882.497070,subg_link: 246.209595,subg_P: -36.831909,subg_A: 192.936188
+ODME #84 total abs gap= 11770.735352,subg_link: 243.312408,subg_P: -44.686077,subg_A: 186.441116
+ODME #85 total abs gap= 11663.950195,subg_link: 240.542740,subg_P: -52.097004,subg_A: 180.309113
+ODME #86 total abs gap= 11565.394531,subg_link: 237.902420,subg_P: -59.097015,subg_A: 174.535461
+ODME #87 total abs gap= 11472.886719,subg_link: 235.411148,subg_P: -65.709175,subg_A: 169.069016
+ODME #88 total abs gap= 11386.437500,subg_link: 233.059647,subg_P: -71.932945,subg_A: 163.911331
+ODME #89 total abs gap= 11304.500000,subg_link: 230.839417,subg_P: -77.770004,subg_A: 159.030777
+ODME #90 total abs gap= 11226.208984,subg_link: 228.719681,subg_P: -83.177856,subg_A: 154.526352
+ODME #91 total abs gap= 11151.974609,subg_link: 226.665085,subg_P: -88.267914,subg_A: 150.241425
+ODME #92 total abs gap= 11080.580078,subg_link: 224.679489,subg_P: -93.084679,subg_A: 146.158936
+ODME #93 total abs gap= 11012.805664,subg_link: 222.773987,subg_P: -97.641144,subg_A: 142.239700
+ODME #94 total abs gap= 10947.913086,subg_link: 220.973297,subg_P: -101.890503,subg_A: 138.550064
+ODME #95 total abs gap= 10885.726563,subg_link: 219.252151,subg_P: -105.867172,subg_A: 135.000580
+ODME #96 total abs gap= 10826.179688,subg_link: 217.588974,subg_P: -109.553238,subg_A: 131.682114
+ODME #97 total abs gap= 10769.239258,subg_link: 216.016510,subg_P: -112.864731,subg_A: 128.633743
+ODME #98 total abs gap= 10714.632813,subg_link: 214.506561,subg_P: -115.931610,subg_A: 125.735603
+ODME #99 total abs gap= 10662.458008,subg_link: 213.064529,subg_P: -118.680336,subg_A: 122.980537
+ODME #100 total abs gap= 10612.035156,subg_link: 211.683990,subg_P: -121.261787,subg_A: 120.319435
+ODME #101 total abs gap= 10563.542969,subg_link: 210.363602,subg_P: -123.630249,subg_A: 117.774796
+ODME #102 total abs gap= 10517.322266,subg_link: 209.090164,subg_P: -125.772713,subg_A: 115.374168
+ODME #103 total abs gap= 10472.629883,subg_link: 207.848007,subg_P: -127.844582,subg_A: 113.102081
+ODME #104 total abs gap= 10429.328125,subg_link: 206.645996,subg_P: -129.835373,subg_A: 110.879944
+ODME #105 total abs gap= 10387.815430,subg_link: 205.517746,subg_P: -131.657623,subg_A: 108.750999
+ODME #106 total abs gap= 10348.253906,subg_link: 204.418442,subg_P: -133.269089,subg_A: 106.737480
+ODME #107 total abs gap= 10310.453125,subg_link: 203.357239,subg_P: -134.802155,subg_A: 104.846283
+ODME #108 total abs gap= 10273.873047,subg_link: 202.332214,subg_P: -136.166824,subg_A: 103.067764
+ODME #109 total abs gap= 10238.437500,subg_link: 201.340698,subg_P: -137.483643,subg_A: 101.379967
+ODME #110 total abs gap= 10204.103516,subg_link: 200.374481,subg_P: -138.760132,subg_A: 99.785873
+ODME #111 total abs gap= 10170.878906,subg_link: 199.438141,subg_P: -139.968048,subg_A: 98.231712
+ODME #112 total abs gap= 10139.306641,subg_link: 198.536804,subg_P: -141.016708,subg_A: 96.811455
+ODME #113 total abs gap= 10108.953125,subg_link: 197.673035,subg_P: -141.989517,subg_A: 95.434692
+ODME #114 total abs gap= 10079.714844,subg_link: 196.840530,subg_P: -142.891205,subg_A: 94.104958
+ODME #115 total abs gap= 10051.368164,subg_link: 196.040741,subg_P: -143.754807,subg_A: 92.813202
+ODME #116 total abs gap= 10023.812500,subg_link: 195.266022,subg_P: -144.602493,subg_A: 91.544167
+ODME #117 total abs gap= 9997.104492,subg_link: 194.534988,subg_P: -145.418594,subg_A: 90.305565
+ODME #118 total abs gap= 9971.226563,subg_link: 193.823471,subg_P: -146.196747,subg_A: 89.119629
+ODME #119 total abs gap= 9946.070313,subg_link: 193.119354,subg_P: -146.926636,subg_A: 87.957924
+ODME #120 total abs gap= 9921.525391,subg_link: 192.436050,subg_P: -147.606903,subg_A: 86.829666
+ODME #121 total abs gap= 9897.601563,subg_link: 191.768188,subg_P: -148.261017,subg_A: 85.755287
+ODME #122 total abs gap= 9874.370117,subg_link: 191.119156,subg_P: -148.885422,subg_A: 84.740067
+ODME #123 total abs gap= 9851.921875,subg_link: 190.486710,subg_P: -149.463226,subg_A: 83.745995
+ODME #124 total abs gap= 9830.287109,subg_link: 189.881149,subg_P: -149.983566,subg_A: 82.777069
+ODME #125 total abs gap= 9809.173828,subg_link: 189.294403,subg_P: -150.489014,subg_A: 81.819901
+ODME #126 total abs gap= 9788.470703,subg_link: 188.713043,subg_P: -150.982086,subg_A: 80.871696
+ODME #127 total abs gap= 9768.601563,subg_link: 188.150970,subg_P: -151.445526,subg_A: 79.948776
+ODME #128 total abs gap= 9749.145508,subg_link: 187.599716,subg_P: -151.898941,subg_A: 79.043159
+ODME #129 total abs gap= 9730.036133,subg_link: 187.065353,subg_P: -152.299042,subg_A: 78.173050
+ODME #130 total abs gap= 9711.623047,subg_link: 186.541351,subg_P: -152.693130,subg_A: 77.310493
+ODME #131 total abs gap= 9695.424805,subg_link: 186.035583,subg_P: -153.067108,subg_A: 76.473602
+ODME #132 total abs gap= 9679.562500,subg_link: 185.548157,subg_P: -153.410324,subg_A: 75.655205
+ODME #133 total abs gap= 9665.496094,subg_link: 185.069305,subg_P: -153.749786,subg_A: 74.846077
+ODME #134 total abs gap= 9652.150391,subg_link: 184.602081,subg_P: -154.082550,subg_A: 74.056160
+ODME #135 total abs gap= 9638.980469,subg_link: 184.146561,subg_P: -154.408737,subg_A: 73.290115
+ODME #136 total abs gap= 9626.774414,subg_link: 183.705078,subg_P: -154.724854,subg_A: 72.537354
+ODME #137 total abs gap= 9615.989258,subg_link: 183.269714,subg_P: -155.032867,subg_A: 71.788834
+ODME #138 total abs gap= 9605.344727,subg_link: 182.843323,subg_P: -155.334061,subg_A: 71.054581
+ODME #139 total abs gap= 9594.880859,subg_link: 182.425720,subg_P: -155.619507,subg_A: 70.335304
+ODME #140 total abs gap= 9584.626953,subg_link: 182.041962,subg_P: -155.862213,subg_A: 69.631233
+ODME #141 total abs gap= 9574.490234,subg_link: 181.658295,subg_P: -156.121719,subg_A: 68.922134
+ODME #142 total abs gap= 9564.439453,subg_link: 181.279922,subg_P: -156.375244,subg_A: 68.221321
+ODME #143 total abs gap= 9554.497070,subg_link: 180.905167,subg_P: -156.631607,subg_A: 67.531769
+ODME #144 total abs gap= 9544.645508,subg_link: 180.537384,subg_P: -156.887512,subg_A: 66.855202
+ODME #145 total abs gap= 9534.869141,subg_link: 180.176407,subg_P: -157.141190,subg_A: 66.189346
+ODME #146 total abs gap= 9525.281250,subg_link: 179.823486,subg_P: -157.384567,subg_A: 65.536079
+ODME #147 total abs gap= 9515.772461,subg_link: 179.476608,subg_P: -157.627045,subg_A: 64.891205
+ODME #148 total abs gap= 9506.349609,subg_link: 179.137894,subg_P: -157.866653,subg_A: 64.257088
+ODME #149 total abs gap= 9497.002930,subg_link: 178.806885,subg_P: -158.103424,subg_A: 63.632374
+ODME #150 total abs gap= 9487.752930,subg_link: 178.481918,subg_P: -158.339218,subg_A: 63.015945
+ODME #151 total abs gap= 9478.599609,subg_link: 178.163818,subg_P: -158.571899,subg_A: 62.410862
+ODME #152 total abs gap= 9469.554688,subg_link: 177.853241,subg_P: -158.798294,subg_A: 61.823578
+ODME #153 total abs gap= 9460.720703,subg_link: 177.550018,subg_P: -159.016449,subg_A: 61.249615
+ODME #154 total abs gap= 9451.973633,subg_link: 177.250366,subg_P: -159.237534,subg_A: 60.678394
+ODME #155 total abs gap= 9443.318359,subg_link: 176.956253,subg_P: -159.458496,subg_A: 60.113274
+ODME #156 total abs gap= 9434.759766,subg_link: 176.667114,subg_P: -159.679749,subg_A: 59.553654
+ODME #157 total abs gap= 9426.328125,subg_link: 176.385086,subg_P: -159.882202,subg_A: 59.001232
+ODME #158 total abs gap= 9418.106445,subg_link: 176.108047,subg_P: -160.070160,subg_A: 58.463127
+ODME #159 total abs gap= 9409.970703,subg_link: 175.833969,subg_P: -160.262650,subg_A: 57.943356
+ODME #160 total abs gap= 9401.921875,subg_link: 175.563110,subg_P: -160.458130,subg_A: 57.435959
+ODME #161 total abs gap= 9393.941406,subg_link: 175.296143,subg_P: -160.655136,subg_A: 56.930882
+ODME #162 total abs gap= 9386.037109,subg_link: 175.034500,subg_P: -160.852676,subg_A: 56.430851
+ODME #163 total abs gap= 9378.233398,subg_link: 174.780090,subg_P: -161.046082,subg_A: 55.936413
+ODME #164 total abs gap= 9370.527344,subg_link: 174.528992,subg_P: -161.242676,subg_A: 55.446041
+ODME #165 total abs gap= 9362.883789,subg_link: 174.282425,subg_P: -161.439911,subg_A: 54.961704
+ODME #166 total abs gap= 9355.360352,subg_link: 174.040192,subg_P: -161.636948,subg_A: 54.482124
+ODME #167 total abs gap= 9347.965820,subg_link: 173.802841,subg_P: -161.833084,subg_A: 54.007805
+ODME #168 total abs gap= 9340.625977,subg_link: 173.570114,subg_P: -162.027237,subg_A: 53.538406
+ODME #169 total abs gap= 9333.337891,subg_link: 173.341370,subg_P: -162.220795,subg_A: 53.073013
+ODME #170 total abs gap= 9326.135742,subg_link: 173.117905,subg_P: -162.399567,subg_A: 52.612556
+ODME #171 total abs gap= 9319.028320,subg_link: 172.898697,subg_P: -162.573318,subg_A: 52.159988
+ODME #172 total abs gap= 9311.988281,subg_link: 172.685577,subg_P: -162.749619,subg_A: 51.711838
+ODME #173 total abs gap= 9304.992188,subg_link: 172.475250,subg_P: -162.927704,subg_A: 51.267727
+ODME #174 total abs gap= 9298.064453,subg_link: 172.268341,subg_P: -163.105560,subg_A: 50.831150
+ODME #175 total abs gap= 9291.323242,subg_link: 172.064301,subg_P: -163.284882,subg_A: 50.396656
+ODME #176 total abs gap= 9284.710938,subg_link: 171.863846,subg_P: -163.458176,subg_A: 49.967705
+ODME #177 total abs gap= 9278.154297,subg_link: 171.665878,subg_P: -163.632904,subg_A: 49.540688
+ODME #178 total abs gap= 9271.615234,subg_link: 171.471161,subg_P: -163.810654,subg_A: 49.116322
+ODME #179 total abs gap= 9265.097656,subg_link: 171.280212,subg_P: -163.988724,subg_A: 48.695339
+ODME #180 total abs gap= 9258.608398,subg_link: 171.093277,subg_P: -164.164658,subg_A: 48.278225
+ODME #181 total abs gap= 9252.144531,subg_link: 170.909424,subg_P: -164.340622,subg_A: 47.864063
+ODME #182 total abs gap= 9245.725586,subg_link: 170.728973,subg_P: -164.516663,subg_A: 47.453022
+ODME #183 total abs gap= 9239.361328,subg_link: 170.553528,subg_P: -164.687912,subg_A: 47.046482
+ODME #184 total abs gap= 9233.058594,subg_link: 170.379852,subg_P: -164.861160,subg_A: 46.642555
+ODME #185 total abs gap= 9226.795898,subg_link: 170.208008,subg_P: -165.038284,subg_A: 46.241421
+ODME #186 total abs gap= 9220.611328,subg_link: 170.047409,subg_P: -165.210266,subg_A: 45.846313
+ODME #187 total abs gap= 9214.468750,subg_link: 169.889526,subg_P: -165.379684,subg_A: 45.453068
+ODME #188 total abs gap= 9208.364258,subg_link: 169.730865,subg_P: -165.548630,subg_A: 45.062782
+ODME #189 total abs gap= 9202.352539,subg_link: 169.572830,subg_P: -165.717743,subg_A: 44.676460
+ODME #190 total abs gap= 9196.603516,subg_link: 169.416351,subg_P: -165.882492,subg_A: 44.298954
+ODME #191 total abs gap= 9190.968750,subg_link: 169.260452,subg_P: -166.045517,subg_A: 43.926800
+ODME #192 total abs gap= 9185.465820,subg_link: 169.105820,subg_P: -166.198608,subg_A: 43.559742
+ODME #193 total abs gap= 9180.023438,subg_link: 168.952759,subg_P: -166.349701,subg_A: 43.196533
+ODME #194 total abs gap= 9174.663086,subg_link: 168.801941,subg_P: -166.495239,subg_A: 42.838436
+ODME #195 total abs gap= 9169.444336,subg_link: 168.653412,subg_P: -166.638458,subg_A: 42.485790
+ODME #196 total abs gap= 9164.267578,subg_link: 168.506363,subg_P: -166.788406,subg_A: 42.136539
+ODME #197 total abs gap= 9159.144531,subg_link: 168.361649,subg_P: -166.941742,subg_A: 41.791595
+ODME #198 total abs gap= 9154.076172,subg_link: 168.220001,subg_P: -167.096375,subg_A: 41.452019
+ODME #199 total abs gap= 9149.064453,subg_link: 168.081039,subg_P: -167.251282,subg_A: 41.117817
+ODME #200 total abs gap= 9144.136719,subg_link: 167.944534,subg_P: -167.405807,subg_A: 40.789532
+ODME #201 total abs gap= 9139.286133,subg_link: 167.811417,subg_P: -167.560791,subg_A: 40.466534
+ODME #202 total abs gap= 9134.669922,subg_link: 167.688263,subg_P: -167.715103,subg_A: 40.159218
+ODME #203 total abs gap= 9130.113281,subg_link: 167.568665,subg_P: -167.870361,subg_A: 39.865540
+ODME #204 total abs gap= 9125.601563,subg_link: 167.448074,subg_P: -168.025681,subg_A: 39.573135
+ODME #205 total abs gap= 9121.136719,subg_link: 167.332199,subg_P: -168.178696,subg_A: 39.285496
+ODME #206 total abs gap= 9116.713867,subg_link: 167.216019,subg_P: -168.332962,subg_A: 38.997986
+ODME #207 total abs gap= 9112.339844,subg_link: 167.099731,subg_P: -168.487518,subg_A: 38.712502
+ODME #208 total abs gap= 9108.005859,subg_link: 166.984650,subg_P: -168.640381,subg_A: 38.431694
+ODME #209 total abs gap= 9103.714844,subg_link: 166.872101,subg_P: -168.789246,subg_A: 38.155106
+ODME #210 total abs gap= 9099.467773,subg_link: 166.761322,subg_P: -168.936966,subg_A: 37.882393
+ODME #211 total abs gap= 9095.272461,subg_link: 166.650970,subg_P: -169.083603,subg_A: 37.612640
+ODME #212 total abs gap= 9091.125000,subg_link: 166.541855,subg_P: -169.229050,subg_A: 37.346905
+ODME #213 total abs gap= 9087.035156,subg_link: 166.433640,subg_P: -169.373886,subg_A: 37.084053
+ODME #214 total abs gap= 9082.993164,subg_link: 166.326706,subg_P: -169.516830,subg_A: 36.824905
+ODME #215 total abs gap= 9079.000000,subg_link: 166.221481,subg_P: -169.650711,subg_A: 36.569164
+ODME #216 total abs gap= 9075.066406,subg_link: 166.117401,subg_P: -169.781204,subg_A: 36.316513
+ODME #217 total abs gap= 9071.197266,subg_link: 166.014099,subg_P: -169.913193,subg_A: 36.066921
+ODME #218 total abs gap= 9067.386719,subg_link: 165.912003,subg_P: -170.045700,subg_A: 35.820381
+ODME #219 total abs gap= 9063.622070,subg_link: 165.811890,subg_P: -170.178146,subg_A: 35.577026
+ODME #220 total abs gap= 9059.904297,subg_link: 165.714401,subg_P: -170.310730,subg_A: 35.335922
+ODME #221 total abs gap= 9056.240234,subg_link: 165.617065,subg_P: -170.444870,subg_A: 35.096516
+ODME #222 total abs gap= 9052.628906,subg_link: 165.521301,subg_P: -170.578949,subg_A: 34.860252
+ODME #223 total abs gap= 9049.068359,subg_link: 165.427368,subg_P: -170.713074,subg_A: 34.626083
+ODME #224 total abs gap= 9045.550781,subg_link: 165.336533,subg_P: -170.847275,subg_A: 34.394096
+ODME #225 total abs gap= 9042.052734,subg_link: 165.245346,subg_P: -170.982239,subg_A: 34.162617
+ODME #226 total abs gap= 9038.595703,subg_link: 165.155746,subg_P: -171.116348,subg_A: 33.934399
+ODME #227 total abs gap= 9035.162109,subg_link: 165.067245,subg_P: -171.250061,subg_A: 33.708511
+ODME #228 total abs gap= 9031.756836,subg_link: 164.979874,subg_P: -171.383560,subg_A: 33.484596
+ODME #229 total abs gap= 9028.382813,subg_link: 164.894394,subg_P: -171.514969,subg_A: 33.263485
+ODME #230 total abs gap= 9025.045898,subg_link: 164.810501,subg_P: -171.644897,subg_A: 33.044098
+ODME #231 total abs gap= 9021.722656,subg_link: 164.727554,subg_P: -171.775299,subg_A: 32.826836
+ODME #232 total abs gap= 9018.416992,subg_link: 164.645569,subg_P: -171.905594,subg_A: 32.611500
+ODME #233 total abs gap= 9015.138672,subg_link: 164.565109,subg_P: -172.035400,subg_A: 32.398510
+ODME #234 total abs gap= 9011.940430,subg_link: 164.485397,subg_P: -172.161255,subg_A: 32.191849
+ODME #235 total abs gap= 9008.785156,subg_link: 164.406448,subg_P: -172.286362,subg_A: 31.987715
+ODME #236 total abs gap= 9005.631836,subg_link: 164.327499,subg_P: -172.413025,subg_A: 31.782675
+ODME #237 total abs gap= 9002.488281,subg_link: 164.250214,subg_P: -172.539322,subg_A: 31.579006
+ODME #238 total abs gap= 8999.381836,subg_link: 164.173996,subg_P: -172.663757,subg_A: 31.376654
+ODME #239 total abs gap= 8996.356445,subg_link: 164.098663,subg_P: -172.783356,subg_A: 31.176012
+ODME #240 total abs gap= 8993.328125,subg_link: 164.023407,subg_P: -172.907028,subg_A: 30.975729
+ODME #241 total abs gap= 8990.296875,subg_link: 163.949615,subg_P: -173.031662,subg_A: 30.777493
+ODME #242 total abs gap= 8987.275391,subg_link: 163.877045,subg_P: -173.156540,subg_A: 30.580742
+ODME #243 total abs gap= 8984.328125,subg_link: 163.805954,subg_P: -173.275833,subg_A: 30.387667
+ODME #244 total abs gap= 8981.407227,subg_link: 163.735458,subg_P: -173.394958,subg_A: 30.195177
+ODME #245 total abs gap= 8978.523438,subg_link: 163.666061,subg_P: -173.513275,subg_A: 30.003933
+ODME #246 total abs gap= 8975.684570,subg_link: 163.598053,subg_P: -173.630859,subg_A: 29.814457
+ODME #247 total abs gap= 8972.836914,subg_link: 163.535339,subg_P: -173.750702,subg_A: 29.626980
+ODME #248 total abs gap= 8969.989258,subg_link: 163.472122,subg_P: -173.873444,subg_A: 29.436928
+ODME #249 total abs gap= 8967.142578,subg_link: 163.411896,subg_P: -173.993271,subg_A: 29.248875
+ODME #250 total abs gap= 8964.293945,subg_link: 163.353058,subg_P: -174.112320,subg_A: 29.061901
+ODME #251 total abs gap= 8961.441406,subg_link: 163.294357,subg_P: -174.221924,subg_A: 28.876961
+ODME #252 total abs gap= 8958.582031,subg_link: 163.235855,subg_P: -174.324661,subg_A: 28.694332
+ODME #253 total abs gap= 8955.716797,subg_link: 163.177536,subg_P: -174.424454,subg_A: 28.514093
+ODME #254 total abs gap= 8952.845703,subg_link: 163.120117,subg_P: -174.520157,subg_A: 28.336889
+ODME #255 total abs gap= 8949.973633,subg_link: 163.063019,subg_P: -174.617828,subg_A: 28.160637
+ODME #256 total abs gap= 8947.132813,subg_link: 163.006805,subg_P: -174.716080,subg_A: 27.986193
+ODME #257 total abs gap= 8944.290039,subg_link: 162.951431,subg_P: -174.814575,subg_A: 27.813261
+ODME #258 total abs gap= 8941.447266,subg_link: 162.897186,subg_P: -174.912491,subg_A: 27.642128
+ODME #259 total abs gap= 8938.613281,subg_link: 162.843323,subg_P: -175.010803,subg_A: 27.471739
+ODME #260 total abs gap= 8935.774414,subg_link: 162.790878,subg_P: -175.108276,subg_A: 27.303659
+ODME #261 total abs gap= 8932.950195,subg_link: 162.738770,subg_P: -175.205811,subg_A: 27.135771
+ODME #262 total abs gap= 8930.129883,subg_link: 162.687958,subg_P: -175.302429,subg_A: 26.969761
+ODME #263 total abs gap= 8927.277344,subg_link: 162.640076,subg_P: -175.396210,subg_A: 26.809004
+ODME #264 total abs gap= 8924.434570,subg_link: 162.591644,subg_P: -175.491440,subg_A: 26.647865
+ODME #265 total abs gap= 8921.605469,subg_link: 162.543564,subg_P: -175.586227,subg_A: 26.487392
+ODME #266 total abs gap= 8918.773438,subg_link: 162.496033,subg_P: -175.680466,subg_A: 26.327307
+ODME #267 total abs gap= 8915.970703,subg_link: 162.449341,subg_P: -175.773544,subg_A: 26.168108
+ODME #268 total abs gap= 8913.224609,subg_link: 162.403503,subg_P: -175.866119,subg_A: 26.009604
+ODME #269 total abs gap= 8910.480469,subg_link: 162.358322,subg_P: -175.957901,subg_A: 25.851704
+ODME #270 total abs gap= 8907.737305,subg_link: 162.313812,subg_P: -176.049011,subg_A: 25.694244
+ODME #271 total abs gap= 8904.998047,subg_link: 162.270508,subg_P: -176.139038,subg_A: 25.537846
+ODME #272 total abs gap= 8902.259766,subg_link: 162.227432,subg_P: -176.229233,subg_A: 25.381433
+ODME #273 total abs gap= 8899.528320,subg_link: 162.185242,subg_P: -176.318512,subg_A: 25.226227
+ODME #274 total abs gap= 8896.794922,subg_link: 162.143463,subg_P: -176.407745,subg_A: 25.071091
+ODME #275 total abs gap= 8894.064453,subg_link: 162.102371,subg_P: -176.496155,subg_A: 24.918322
+ODME #276 total abs gap= 8891.350586,subg_link: 162.061722,subg_P: -176.583984,subg_A: 24.768129
+ODME #277 total abs gap= 8888.666016,subg_link: 162.021790,subg_P: -176.671524,subg_A: 24.618286
+ODME #278 total abs gap= 8885.984375,subg_link: 161.982285,subg_P: -176.758316,subg_A: 24.468678
+ODME #279 total abs gap= 8883.302734,subg_link: 161.943375,subg_P: -176.844650,subg_A: 24.319380
+ODME #280 total abs gap= 8880.630859,subg_link: 161.905136,subg_P: -176.930542,subg_A: 24.170439
+ODME #281 total abs gap= 8877.951172,subg_link: 161.867432,subg_P: -177.015747,subg_A: 24.021955
+ODME #282 total abs gap= 8875.284180,subg_link: 161.829987,subg_P: -177.100845,subg_A: 23.873516
+ODME #283 total abs gap= 8872.611328,subg_link: 161.793457,subg_P: -177.184937,subg_A: 23.725969
+ODME #284 total abs gap= 8869.944336,subg_link: 161.756821,subg_P: -177.269196,subg_A: 23.577829
+ODME #285 total abs gap= 8867.281250,subg_link: 161.721176,subg_P: -177.352493,subg_A: 23.430824
+ODME #286 total abs gap= 8864.616211,subg_link: 161.685684,subg_P: -177.435577,subg_A: 23.283960
+ODME #287 total abs gap= 8861.958984,subg_link: 161.650620,subg_P: -177.518036,subg_A: 23.137478
+ODME #288 total abs gap= 8859.303711,subg_link: 161.616165,subg_P: -177.600006,subg_A: 22.991243
+ODME #289 total abs gap= 8856.644531,subg_link: 161.581726,subg_P: -177.681519,subg_A: 22.844990
+ODME #290 total abs gap= 8853.996094,subg_link: 161.548096,subg_P: -177.762421,subg_A: 22.699577
+ODME #291 total abs gap= 8851.347656,subg_link: 161.514679,subg_P: -177.843048,subg_A: 22.554476
+ODME #292 total abs gap= 8848.701172,subg_link: 161.481506,subg_P: -177.923416,subg_A: 22.409716
+ODME #293 total abs gap= 8846.058594,subg_link: 161.448929,subg_P: -178.002884,subg_A: 22.265486
+ODME #294 total abs gap= 8843.417969,subg_link: 161.416443,subg_P: -178.082352,subg_A: 22.121264
+ODME #295 total abs gap= 8840.778320,subg_link: 161.384766,subg_P: -178.160736,subg_A: 21.977768
+ODME #296 total abs gap= 8838.142578,subg_link: 161.352997,subg_P: -178.239029,subg_A: 21.834074
+ODME #297 total abs gap= 8835.508789,subg_link: 161.321625,subg_P: -178.316788,subg_A: 21.690983
+ODME #298 total abs gap= 8832.883789,subg_link: 161.290771,subg_P: -178.394135,subg_A: 21.548412
+ODME #299 total abs gap= 8830.255859,subg_link: 161.260193,subg_P: -178.470963,subg_A: 21.406082
+ODME #300 total abs gap= 8827.631836,subg_link: 161.229843,subg_P: -178.547363,subg_A: 21.264194
+ODME #301 total abs gap= 8825.013672,subg_link: 161.199890,subg_P: -178.623322,subg_A: 21.122477
+ODME #302 total abs gap= 8822.398438,subg_link: 161.170166,subg_P: -178.698807,subg_A: 20.981152
+ODME #303 total abs gap= 8819.792969,subg_link: 161.141327,subg_P: -178.772919,subg_A: 20.842154
+ODME #304 total abs gap= 8817.188477,subg_link: 161.112427,subg_P: -178.846954,subg_A: 20.703211
+ODME #305 total abs gap= 8814.586914,subg_link: 161.083466,subg_P: -178.920822,subg_A: 20.563965
+ODME #306 total abs gap= 8811.983398,subg_link: 161.054993,subg_P: -178.994370,subg_A: 20.424957
+ODME #307 total abs gap= 8809.379883,subg_link: 161.026703,subg_P: -179.067108,subg_A: 20.286089
+ODME #308 total abs gap= 8806.785156,subg_link: 160.998901,subg_P: -179.139679,subg_A: 20.147593
+ODME #309 total abs gap= 8804.196289,subg_link: 160.971161,subg_P: -179.212036,subg_A: 20.009018
+ODME #310 total abs gap= 8801.603516,subg_link: 160.943893,subg_P: -179.283569,subg_A: 19.871368
+ODME #311 total abs gap= 8799.017578,subg_link: 160.916931,subg_P: -179.355164,subg_A: 19.733400
+ODME #312 total abs gap= 8796.435547,subg_link: 160.890015,subg_P: -179.426147,subg_A: 19.595915
+ODME #313 total abs gap= 8793.857422,subg_link: 160.863434,subg_P: -179.495300,subg_A: 19.458643
+ODME #314 total abs gap= 8791.276367,subg_link: 160.837204,subg_P: -179.564026,subg_A: 19.321991
+ODME #315 total abs gap= 8788.710938,subg_link: 160.811691,subg_P: -179.632690,subg_A: 19.186014
+ODME #316 total abs gap= 8786.139648,subg_link: 160.790390,subg_P: -179.699829,subg_A: 19.054653
+ODME #317 total abs gap= 8783.574219,subg_link: 160.764343,subg_P: -179.769775,subg_A: 18.917061
+ODME #318 total abs gap= 8781.036133,subg_link: 160.740494,subg_P: -179.835968,subg_A: 18.782829
+ODME #319 total abs gap= 8778.540039,subg_link: 160.716522,subg_P: -179.901215,subg_A: 18.648525
+ODME #320 total abs gap= 8776.055664,subg_link: 160.693665,subg_P: -179.964920,subg_A: 18.515476
+ODME #321 total abs gap= 8773.581055,subg_link: 160.670731,subg_P: -180.028671,subg_A: 18.382507
+ODME #322 total abs gap= 8771.116211,subg_link: 160.648285,subg_P: -180.092041,subg_A: 18.249874
+ODME #323 total abs gap= 8768.657227,subg_link: 160.625916,subg_P: -180.155380,subg_A: 18.117340
+ODME #324 total abs gap= 8766.207031,subg_link: 160.604065,subg_P: -180.218643,subg_A: 17.985458
+ODME #325 total abs gap= 8763.764648,subg_link: 160.582336,subg_P: -180.282074,subg_A: 17.853645
+ODME #326 total abs gap= 8761.325195,subg_link: 160.560638,subg_P: -180.345795,subg_A: 17.721870
+ODME #327 total abs gap= 8758.892578,subg_link: 160.539215,subg_P: -180.409821,subg_A: 17.590532
+ODME #328 total abs gap= 8756.466797,subg_link: 160.517838,subg_P: -180.474060,subg_A: 17.459021
+ODME #329 total abs gap= 8754.043945,subg_link: 160.496689,subg_P: -180.538483,subg_A: 17.327337
+ODME #330 total abs gap= 8751.628906,subg_link: 160.475571,subg_P: -180.603271,subg_A: 17.196243
+ODME #331 total abs gap= 8749.236328,subg_link: 160.454712,subg_P: -180.666275,subg_A: 17.066517
+ODME #332 total abs gap= 8746.849609,subg_link: 160.433868,subg_P: -180.729019,subg_A: 16.936869
+ODME #333 total abs gap= 8744.468750,subg_link: 160.412994,subg_P: -180.792450,subg_A: 16.807180
+ODME #334 total abs gap= 8742.093750,subg_link: 160.392563,subg_P: -180.855698,subg_A: 16.677874
+ODME #335 total abs gap= 8739.718750,subg_link: 160.371704,subg_P: -180.920227,subg_A: 16.547897
+ODME #336 total abs gap= 8737.353516,subg_link: 160.351334,subg_P: -180.984039,subg_A: 16.418816
+ODME #337 total abs gap= 8734.991211,subg_link: 160.330963,subg_P: -181.048462,subg_A: 16.289482
+ODME #338 total abs gap= 8732.632813,subg_link: 160.310577,subg_P: -181.113342,subg_A: 16.160526
+ODME #339 total abs gap= 8730.302734,subg_link: 160.290482,subg_P: -181.177994,subg_A: 16.031713
+ODME #340 total abs gap= 8728.050781,subg_link: 160.272934,subg_P: -181.235779,subg_A: 15.905770
+ODME #341 total abs gap= 8725.872070,subg_link: 160.255127,subg_P: -181.291840,subg_A: 15.780287
+ODME #342 total abs gap= 8723.669922,subg_link: 160.235611,subg_P: -181.353622,subg_A: 15.653403
+ODME #343 total abs gap= 8721.459961,subg_link: 160.215942,subg_P: -181.417755,subg_A: 15.527074
+ODME #344 total abs gap= 8719.246094,subg_link: 160.196091,subg_P: -181.483856,subg_A: 15.400688
+ODME #345 total abs gap= 8717.048828,subg_link: 160.176208,subg_P: -181.550949,subg_A: 15.274805
+ODME #346 total abs gap= 8714.861328,subg_link: 160.156342,subg_P: -181.618591,subg_A: 15.148726
+ODME #347 total abs gap= 8712.676758,subg_link: 160.136490,subg_P: -181.686569,subg_A: 15.022974
+ODME #348 total abs gap= 8710.492188,subg_link: 160.116562,subg_P: -181.754486,subg_A: 14.897153
+ODME #349 total abs gap= 8708.305664,subg_link: 160.096710,subg_P: -181.822418,subg_A: 14.772073
+ODME #350 total abs gap= 8706.128906,subg_link: 160.077133,subg_P: -181.890106,subg_A: 14.647262
+ODME #351 total abs gap= 8703.948242,subg_link: 160.057205,subg_P: -181.957581,subg_A: 14.522907
+ODME #352 total abs gap= 8701.775391,subg_link: 160.037766,subg_P: -182.024414,subg_A: 14.399372
+ODME #353 total abs gap= 8699.605469,subg_link: 160.018311,subg_P: -182.091019,subg_A: 14.275848
+ODME #354 total abs gap= 8697.435547,subg_link: 159.998856,subg_P: -182.157120,subg_A: 14.152591
+ODME #355 total abs gap= 8695.277344,subg_link: 159.979599,subg_P: -182.222565,subg_A: 14.029865
+ODME #356 total abs gap= 8693.161133,subg_link: 159.961288,subg_P: -182.286057,subg_A: 13.910301
+ODME #357 total abs gap= 8691.075195,subg_link: 159.942383,subg_P: -182.350235,subg_A: 13.790300
+ODME #358 total abs gap= 8688.987305,subg_link: 159.923477,subg_P: -182.413742,subg_A: 13.670341
+ODME #359 total abs gap= 8686.906250,subg_link: 159.904602,subg_P: -182.476974,subg_A: 13.550634
+ODME #360 total abs gap= 8684.826172,subg_link: 159.885910,subg_P: -182.539673,subg_A: 13.430895
+ODME #361 total abs gap= 8682.748047,subg_link: 159.867462,subg_P: -182.601547,subg_A: 13.311622
+ODME #362 total abs gap= 8680.679688,subg_link: 159.848877,subg_P: -182.663208,subg_A: 13.192468
+ODME #363 total abs gap= 8678.613281,subg_link: 159.830917,subg_P: -182.723984,subg_A: 13.073957
+ODME #364 total abs gap= 8676.580078,subg_link: 159.812546,subg_P: -182.785004,subg_A: 12.955335
+ODME #365 total abs gap= 8674.551758,subg_link: 159.794724,subg_P: -182.845108,subg_A: 12.837309
+ODME #366 total abs gap= 8672.525391,subg_link: 159.776993,subg_P: -182.904816,subg_A: 12.719631
+ODME #367 total abs gap= 8670.508789,subg_link: 159.759323,subg_P: -182.964188,subg_A: 12.602401
+ODME #368 total abs gap= 8668.519531,subg_link: 159.741837,subg_P: -183.023056,subg_A: 12.485348
+ODME #369 total abs gap= 8666.532227,subg_link: 159.724380,subg_P: -183.081528,subg_A: 12.368875
+ODME #370 total abs gap= 8664.558594,subg_link: 159.707382,subg_P: -183.139557,subg_A: 12.252810
+ODME #371 total abs gap= 8662.607422,subg_link: 159.690002,subg_P: -183.197784,subg_A: 12.136717
+ODME #372 total abs gap= 8660.666016,subg_link: 159.672928,subg_P: -183.254929,subg_A: 12.021546
+ODME #373 total abs gap= 8658.729492,subg_link: 159.655975,subg_P: -183.311874,subg_A: 11.906466
+ODME #374 total abs gap= 8656.801758,subg_link: 159.639496,subg_P: -183.368500,subg_A: 11.791956
+ODME #375 total abs gap= 8654.904297,subg_link: 159.623306,subg_P: -183.423630,subg_A: 11.677752
+ODME #376 total abs gap= 8653.023438,subg_link: 159.607513,subg_P: -183.477737,subg_A: 11.564241
+ODME #377 total abs gap= 8651.152344,subg_link: 159.592285,subg_P: -183.531418,subg_A: 11.451239
+ODME #378 total abs gap= 8649.296875,subg_link: 159.577576,subg_P: -183.583679,subg_A: 11.338518
+ODME #379 total abs gap= 8647.506836,subg_link: 159.563812,subg_P: -183.633728,subg_A: 11.227290
+ODME #380 total abs gap= 8645.743164,subg_link: 159.547455,subg_P: -183.690109,subg_A: 11.114964
+ODME #381 total abs gap= 8644.035156,subg_link: 159.531998,subg_P: -183.745834,subg_A: 11.004412
+ODME #382 total abs gap= 8642.352539,subg_link: 159.516754,subg_P: -183.801620,subg_A: 10.894532
+ODME #383 total abs gap= 8640.695313,subg_link: 159.501373,subg_P: -183.857758,subg_A: 10.784451
+ODME #384 total abs gap= 8639.059570,subg_link: 159.486359,subg_P: -183.913742,subg_A: 10.674803
+ODME #385 total abs gap= 8637.446289,subg_link: 159.471329,subg_P: -183.969849,subg_A: 10.565474
+ODME #386 total abs gap= 8635.851563,subg_link: 159.456543,subg_P: -184.025879,subg_A: 10.456470
+ODME #387 total abs gap= 8634.283203,subg_link: 159.441956,subg_P: -184.081787,subg_A: 10.347464
+ODME #388 total abs gap= 8632.747070,subg_link: 159.427063,subg_P: -184.137680,subg_A: 10.238610
+ODME #389 total abs gap= 8631.228516,subg_link: 159.412048,subg_P: -184.193909,subg_A: 10.129772
+ODME #390 total abs gap= 8629.724609,subg_link: 159.397675,subg_P: -184.249802,subg_A: 10.021493
+ODME #391 total abs gap= 8628.236328,subg_link: 159.383240,subg_P: -184.306000,subg_A: 9.913325
+ODME #392 total abs gap= 8626.765625,subg_link: 159.368759,subg_P: -184.362045,subg_A: 9.805277
+ODME #393 total abs gap= 8625.300781,subg_link: 159.354309,subg_P: -184.418243,subg_A: 9.697509
+ODME #394 total abs gap= 8623.849609,subg_link: 159.339828,subg_P: -184.474487,subg_A: 9.589717
+ODME #395 total abs gap= 8622.509766,subg_link: 159.328171,subg_P: -184.525330,subg_A: 9.484130
+ODME #396 total abs gap= 8621.210938,subg_link: 159.320511,subg_P: -184.575577,subg_A: 9.379010
+ODME #397 total abs gap= 8619.930664,subg_link: 159.310074,subg_P: -184.630829,subg_A: 9.271592
+ODME #398 total abs gap= 8618.690430,subg_link: 159.299057,subg_P: -184.687592,subg_A: 9.164550
+ODME #399 total abs gap= 8617.492188,subg_link: 159.286682,subg_P: -184.745499,subg_A: 9.057106
+
+Done!
+CPU Running Time for column pool updating: 36.086000 s
+writing link_performance.csv..
+writing agent.csv..
+writing data for 41  zones 
+Output for assignment with 20 iterations. Traffic assignment completes!
+CPU Running Time for outputting simulation results: 1.157000 s
+free memory..
+done.
