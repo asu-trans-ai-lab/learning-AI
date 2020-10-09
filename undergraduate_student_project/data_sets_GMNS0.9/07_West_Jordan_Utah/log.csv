@@ -16,904 +16,1685 @@ number of agent typess = 1
 Step 1.4: Reading node data in node.csv...
 number of nodes = 149
 Step 1.5: Initializing O-D zone vector...
-number of zones = 41
-Step 1.6: Reading link data in link.csv... 
-number of links = 378
-number of links =460
-Step 1.7: Reading service arc in timing.csv...
-
-Step 1.8: Reading file section [demand_file_list] in setting.csv...
-number of timing records = 0
-
-allocating 4D memory for 0 zones
-allocating 3D memory for 0
-
-Step 1.8: Reading file section [demand_file_list] in setting.csv...
-o_zone_id:1, d_zone_id: 1, value = 40.513187
-o_zone_id:1, d_zone_id: 2, value = 30.369238
-o_zone_id:1, d_zone_id: 3, value = 61.239410
-o_zone_id:1, d_zone_id: 4, value = 2.942998
-o_zone_id:1, d_zone_id: 5, value = 21.039307
-o_zone_id:1, d_zone_id: 6, value = 28.052408
-total_demand_volume is 26042.109375
-
-Step 2: Assigning computing tasks to memory blocks...
-There are 4 networks in memory.
-
-Step 3: Column Generation for Traffic Assignment...
-Total Column Generation iteration: 20
-
-Current iteration number:0
-Current CPU time: 0.037000 s
-
-Current iteration number:1
-Current CPU time: 0.103000 s
-
-Current iteration number:2
-Current CPU time: 0.133000 s
-
-Current iteration number:3
-Current CPU time: 0.206000 s
-
-Current iteration number:4
-Current CPU time: 0.264000 s
-
-Current iteration number:5
-Current CPU time: 0.304000 s
-
-Current iteration number:6
-Current CPU time: 0.400000 s
-
-Current iteration number:7
-Current CPU time: 0.487000 s
-
-Current iteration number:8
-Current CPU time: 0.521000 s
-
-Current iteration number:9
-Current CPU time: 0.601000 s
-
-Current iteration number:10
-Current CPU time: 0.735000 s
-
-Current iteration number:11
-Current CPU time: 0.840000 s
-
-Current iteration number:12
-Current CPU time: 0.925000 s
-
-Current iteration number:13
-Current CPU time: 0.963000 s
-
-Current iteration number:14
-Current CPU time: 1.004000 s
-
-Current iteration number:15
-Current CPU time: 1.039000 s
-
-Current iteration number:16
-Current CPU time: 1.080000 s
-
-Current iteration number:17
-Current CPU time: 1.151000 s
-
-Current iteration number:18
-Current CPU time: 1.232000 s
-
-Current iteration number:19
-Current CPU time: 1.318000 s
-
-Step 4: Column Pool Updating
-Total Column Pool Updating iteration: 400
-Current iteration number: 0
-Current iteration number: 1
-Current iteration number: 2
-Current iteration number: 3
-Current iteration number: 4
-Current iteration number: 5
-Current iteration number: 6
-Current iteration number: 7
-Current iteration number: 8
-Current iteration number: 9
-Current iteration number: 10
-Current iteration number: 11
-Current iteration number: 12
-Current iteration number: 13
-Current iteration number: 14
-Current iteration number: 15
-Current iteration number: 16
-Current iteration number: 17
-Current iteration number: 18
-Current iteration number: 19
-Current iteration number: 20
-Current iteration number: 21
-Current iteration number: 22
-Current iteration number: 23
-Current iteration number: 24
-Current iteration number: 25
-Current iteration number: 26
-Current iteration number: 27
-Current iteration number: 28
-Current iteration number: 29
-Current iteration number: 30
-Current iteration number: 31
-Current iteration number: 32
-Current iteration number: 33
-Current iteration number: 34
-Current iteration number: 35
-Current iteration number: 36
-Current iteration number: 37
-Current iteration number: 38
-Current iteration number: 39
-Current iteration number: 40
-Current iteration number: 41
-Current iteration number: 42
-Current iteration number: 43
-Current iteration number: 44
-Current iteration number: 45
-Current iteration number: 46
-Current iteration number: 47
-Current iteration number: 48
-Current iteration number: 49
-Current iteration number: 50
-Current iteration number: 51
-Current iteration number: 52
-Current iteration number: 53
-Current iteration number: 54
-Current iteration number: 55
-Current iteration number: 56
-Current iteration number: 57
-Current iteration number: 58
-Current iteration number: 59
-Current iteration number: 60
-Current iteration number: 61
-Current iteration number: 62
-Current iteration number: 63
-Current iteration number: 64
-Current iteration number: 65
-Current iteration number: 66
-Current iteration number: 67
-Current iteration number: 68
-Current iteration number: 69
-Current iteration number: 70
-Current iteration number: 71
-Current iteration number: 72
-Current iteration number: 73
-Current iteration number: 74
-Current iteration number: 75
-Current iteration number: 76
-Current iteration number: 77
-Current iteration number: 78
-Current iteration number: 79
-Current iteration number: 80
-Current iteration number: 81
-Current iteration number: 82
-Current iteration number: 83
-Current iteration number: 84
-Current iteration number: 85
-Current iteration number: 86
-Current iteration number: 87
-Current iteration number: 88
-Current iteration number: 89
-Current iteration number: 90
-Current iteration number: 91
-Current iteration number: 92
-Current iteration number: 93
-Current iteration number: 94
-Current iteration number: 95
-Current iteration number: 96
-Current iteration number: 97
-Current iteration number: 98
-Current iteration number: 99
-Current iteration number: 100
-Current iteration number: 101
-Current iteration number: 102
-Current iteration number: 103
-Current iteration number: 104
-Current iteration number: 105
-Current iteration number: 106
-Current iteration number: 107
-Current iteration number: 108
-Current iteration number: 109
-Current iteration number: 110
-Current iteration number: 111
-Current iteration number: 112
-Current iteration number: 113
-Current iteration number: 114
-Current iteration number: 115
-Current iteration number: 116
-Current iteration number: 117
-Current iteration number: 118
-Current iteration number: 119
-Current iteration number: 120
-Current iteration number: 121
-Current iteration number: 122
-Current iteration number: 123
-Current iteration number: 124
-Current iteration number: 125
-Current iteration number: 126
-Current iteration number: 127
-Current iteration number: 128
-Current iteration number: 129
-Current iteration number: 130
-Current iteration number: 131
-Current iteration number: 132
-Current iteration number: 133
-Current iteration number: 134
-Current iteration number: 135
-Current iteration number: 136
-Current iteration number: 137
-Current iteration number: 138
-Current iteration number: 139
-Current iteration number: 140
-Current iteration number: 141
-Current iteration number: 142
-Current iteration number: 143
-Current iteration number: 144
-Current iteration number: 145
-Current iteration number: 146
-Current iteration number: 147
-Current iteration number: 148
-Current iteration number: 149
-Current iteration number: 150
-Current iteration number: 151
-Current iteration number: 152
-Current iteration number: 153
-Current iteration number: 154
-Current iteration number: 155
-Current iteration number: 156
-Current iteration number: 157
-Current iteration number: 158
-Current iteration number: 159
-Current iteration number: 160
-Current iteration number: 161
-Current iteration number: 162
-Current iteration number: 163
-Current iteration number: 164
-Current iteration number: 165
-Current iteration number: 166
-Current iteration number: 167
-Current iteration number: 168
-Current iteration number: 169
-Current iteration number: 170
-Current iteration number: 171
-Current iteration number: 172
-Current iteration number: 173
-Current iteration number: 174
-Current iteration number: 175
-Current iteration number: 176
-Current iteration number: 177
-Current iteration number: 178
-Current iteration number: 179
-Current iteration number: 180
-Current iteration number: 181
-Current iteration number: 182
-Current iteration number: 183
-Current iteration number: 184
-Current iteration number: 185
-Current iteration number: 186
-Current iteration number: 187
-Current iteration number: 188
-Current iteration number: 189
-Current iteration number: 190
-Current iteration number: 191
-Current iteration number: 192
-Current iteration number: 193
-Current iteration number: 194
-Current iteration number: 195
-Current iteration number: 196
-Current iteration number: 197
-Current iteration number: 198
-Current iteration number: 199
-Current iteration number: 200
-Current iteration number: 201
-Current iteration number: 202
-Current iteration number: 203
-Current iteration number: 204
-Current iteration number: 205
-Current iteration number: 206
-Current iteration number: 207
-Current iteration number: 208
-Current iteration number: 209
-Current iteration number: 210
-Current iteration number: 211
-Current iteration number: 212
-Current iteration number: 213
-Current iteration number: 214
-Current iteration number: 215
-Current iteration number: 216
-Current iteration number: 217
-Current iteration number: 218
-Current iteration number: 219
-Current iteration number: 220
-Current iteration number: 221
-Current iteration number: 222
-Current iteration number: 223
-Current iteration number: 224
-Current iteration number: 225
-Current iteration number: 226
-Current iteration number: 227
-Current iteration number: 228
-Current iteration number: 229
-Current iteration number: 230
-Current iteration number: 231
-Current iteration number: 232
-Current iteration number: 233
-Current iteration number: 234
-Current iteration number: 235
-Current iteration number: 236
-Current iteration number: 237
-Current iteration number: 238
-Current iteration number: 239
-Current iteration number: 240
-Current iteration number: 241
-Current iteration number: 242
-Current iteration number: 243
-Current iteration number: 244
-Current iteration number: 245
-Current iteration number: 246
-Current iteration number: 247
-Current iteration number: 248
-Current iteration number: 249
-Current iteration number: 250
-Current iteration number: 251
-Current iteration number: 252
-Current iteration number: 253
-Current iteration number: 254
-Current iteration number: 255
-Current iteration number: 256
-Current iteration number: 257
-Current iteration number: 258
-Current iteration number: 259
-Current iteration number: 260
-Current iteration number: 261
-Current iteration number: 262
-Current iteration number: 263
-Current iteration number: 264
-Current iteration number: 265
-Current iteration number: 266
-Current iteration number: 267
-Current iteration number: 268
-Current iteration number: 269
-Current iteration number: 270
-Current iteration number: 271
-Current iteration number: 272
-Current iteration number: 273
-Current iteration number: 274
-Current iteration number: 275
-Current iteration number: 276
-Current iteration number: 277
-Current iteration number: 278
-Current iteration number: 279
-Current iteration number: 280
-Current iteration number: 281
-Current iteration number: 282
-Current iteration number: 283
-Current iteration number: 284
-Current iteration number: 285
-Current iteration number: 286
-Current iteration number: 287
-Current iteration number: 288
-Current iteration number: 289
-Current iteration number: 290
-Current iteration number: 291
-Current iteration number: 292
-Current iteration number: 293
-Current iteration number: 294
-Current iteration number: 295
-Current iteration number: 296
-Current iteration number: 297
-Current iteration number: 298
-Current iteration number: 299
-Current iteration number: 300
-Current iteration number: 301
-Current iteration number: 302
-Current iteration number: 303
-Current iteration number: 304
-Current iteration number: 305
-Current iteration number: 306
-Current iteration number: 307
-Current iteration number: 308
-Current iteration number: 309
-Current iteration number: 310
-Current iteration number: 311
-Current iteration number: 312
-Current iteration number: 313
-Current iteration number: 314
-Current iteration number: 315
-Current iteration number: 316
-Current iteration number: 317
-Current iteration number: 318
-Current iteration number: 319
-Current iteration number: 320
-Current iteration number: 321
-Current iteration number: 322
-Current iteration number: 323
-Current iteration number: 324
-Current iteration number: 325
-Current iteration number: 326
-Current iteration number: 327
-Current iteration number: 328
-Current iteration number: 329
-Current iteration number: 330
-Current iteration number: 331
-Current iteration number: 332
-Current iteration number: 333
-Current iteration number: 334
-Current iteration number: 335
-Current iteration number: 336
-Current iteration number: 337
-Current iteration number: 338
-Current iteration number: 339
-Current iteration number: 340
-Current iteration number: 341
-Current iteration number: 342
-Current iteration number: 343
-Current iteration number: 344
-Current iteration number: 345
-Current iteration number: 346
-Current iteration number: 347
-Current iteration number: 348
-Current iteration number: 349
-Current iteration number: 350
-Current iteration number: 351
-Current iteration number: 352
-Current iteration number: 353
-Current iteration number: 354
-Current iteration number: 355
-Current iteration number: 356
-Current iteration number: 357
-Current iteration number: 358
-Current iteration number: 359
-Current iteration number: 360
-Current iteration number: 361
-Current iteration number: 362
-Current iteration number: 363
-Current iteration number: 364
-Current iteration number: 365
-Current iteration number: 366
-Current iteration number: 367
-Current iteration number: 368
-Current iteration number: 369
-Current iteration number: 370
-Current iteration number: 371
-Current iteration number: 372
-Current iteration number: 373
-Current iteration number: 374
-Current iteration number: 375
-Current iteration number: 376
-Current iteration number: 377
-Current iteration number: 378
-Current iteration number: 379
-Current iteration number: 380
-Current iteration number: 381
-Current iteration number: 382
-Current iteration number: 383
-Current iteration number: 384
-Current iteration number: 385
-Current iteration number: 386
-Current iteration number: 387
-Current iteration number: 388
-Current iteration number: 389
-Current iteration number: 390
-Current iteration number: 391
-Current iteration number: 392
-Current iteration number: 393
-Current iteration number: 394
-Current iteration number: 395
-Current iteration number: 396
-Current iteration number: 397
-Current iteration number: 398
-Current iteration number: 399
-
-Step 6: O-D estimation for traffic assignment..
-ODME #0 total abs gap= 76349.914063,subg_link: 674.434143,subg_P: -1044.946289,subg_A: -542.765991
-ODME #1 total abs gap= 75178.046875,subg_link: 892.607910,subg_P: -404.288055,subg_A: 239.269348
-ODME #2 total abs gap= 73414.437500,subg_link: 827.644470,subg_P: -422.542175,subg_A: 192.788681
-ODME #3 total abs gap= 71700.218750,subg_link: 771.362488,subg_P: -431.130798,subg_A: 158.439575
-ODME #4 total abs gap= 70030.648438,subg_link: 723.689575,subg_P: -430.245117,subg_A: 135.730438
-ODME #5 total abs gap= 68388.960938,subg_link: 685.183044,subg_P: -420.666870,subg_A: 123.789467
-ODME #6 total abs gap= 66776.054688,subg_link: 653.719604,subg_P: -404.232788,subg_A: 121.330414
-ODME #7 total abs gap= 65289.605469,subg_link: 628.197144,subg_P: -381.607391,subg_A: 127.005348
-ODME #8 total abs gap= 63859.414063,subg_link: 607.530884,subg_P: -354.898346,subg_A: 140.847687
-ODME #9 total abs gap= 62440.093750,subg_link: 592.195435,subg_P: -324.017822,subg_A: 162.460403
-ODME #10 total abs gap= 61032.699219,subg_link: 582.193726,subg_P: -292.160858,subg_A: 191.295563
-ODME #11 total abs gap= 59608.398438,subg_link: 574.720276,subg_P: -261.391266,subg_A: 225.369690
-ODME #12 total abs gap= 58170.996094,subg_link: 569.971252,subg_P: -231.386261,subg_A: 264.697601
-ODME #13 total abs gap= 56730.902344,subg_link: 568.804565,subg_P: -200.676224,subg_A: 307.811310
-ODME #14 total abs gap= 55312.539063,subg_link: 570.459290,subg_P: -168.948471,subg_A: 355.113464
-ODME #15 total abs gap= 53933.394531,subg_link: 574.642151,subg_P: -136.872452,subg_A: 406.580292
-ODME #16 total abs gap= 52570.796875,subg_link: 581.094910,subg_P: -103.960655,subg_A: 460.413208
-ODME #17 total abs gap= 51226.574219,subg_link: 589.899963,subg_P: -69.622734,subg_A: 516.065979
-ODME #18 total abs gap= 49884.148438,subg_link: 600.283081,subg_P: -34.594547,subg_A: 572.370789
-ODME #19 total abs gap= 48548.687500,subg_link: 611.600403,subg_P: 0.202823,subg_A: 628.086914
-ODME #20 total abs gap= 47237.925781,subg_link: 623.195190,subg_P: 33.429806,subg_A: 682.436401
-ODME #21 total abs gap= 45934.179688,subg_link: 635.325500,subg_P: 66.878548,subg_A: 736.286255
-ODME #22 total abs gap= 44696.156250,subg_link: 648.098694,subg_P: 101.338104,subg_A: 790.114136
-ODME #23 total abs gap= 43470.210938,subg_link: 661.645630,subg_P: 134.617966,subg_A: 845.419495
-ODME #24 total abs gap= 42371.000000,subg_link: 675.450562,subg_P: 165.590286,subg_A: 901.874451
-ODME #25 total abs gap= 41383.605469,subg_link: 687.974548,subg_P: 193.423080,subg_A: 958.522217
-ODME #26 total abs gap= 40482.378906,subg_link: 698.592896,subg_P: 218.470032,subg_A: 1014.289551
-ODME #27 total abs gap= 39626.328125,subg_link: 707.614990,subg_P: 240.569489,subg_A: 1068.949707
-ODME #28 total abs gap= 38801.550781,subg_link: 715.054199,subg_P: 259.915588,subg_A: 1121.523438
-ODME #29 total abs gap= 38045.566406,subg_link: 720.916626,subg_P: 276.767365,subg_A: 1167.750732
-ODME #30 total abs gap= 37277.257813,subg_link: 724.872009,subg_P: 292.552948,subg_A: 1206.405151
-ODME #31 total abs gap= 36488.339844,subg_link: 725.433411,subg_P: 307.226410,subg_A: 1235.305542
-ODME #32 total abs gap= 35665.222656,subg_link: 720.697510,subg_P: 320.312775,subg_A: 1250.018066
-ODME #33 total abs gap= 34845.167969,subg_link: 712.769531,subg_P: 333.371399,subg_A: 1254.819092
-ODME #34 total abs gap= 34038.253906,subg_link: 703.420349,subg_P: 347.421387,subg_A: 1252.081177
-ODME #35 total abs gap= 33241.882813,subg_link: 693.504944,subg_P: 363.237396,subg_A: 1243.821289
-ODME #36 total abs gap= 32459.873047,subg_link: 683.457092,subg_P: 380.916840,subg_A: 1229.804443
-ODME #37 total abs gap= 31692.552734,subg_link: 673.332703,subg_P: 400.217194,subg_A: 1209.656860
-ODME #38 total abs gap= 30940.626953,subg_link: 662.422424,subg_P: 419.000092,subg_A: 1183.454712
-ODME #39 total abs gap= 30199.070313,subg_link: 650.941223,subg_P: 436.865723,subg_A: 1153.636353
-ODME #40 total abs gap= 29463.054688,subg_link: 638.586121,subg_P: 453.216187,subg_A: 1122.267578
-ODME #41 total abs gap= 28736.763672,subg_link: 625.606384,subg_P: 468.617950,subg_A: 1090.990967
-ODME #42 total abs gap= 28025.537109,subg_link: 612.358826,subg_P: 484.089478,subg_A: 1059.562256
-ODME #43 total abs gap= 27340.050781,subg_link: 599.085083,subg_P: 499.911743,subg_A: 1028.010498
-ODME #44 total abs gap= 26684.542969,subg_link: 585.168884,subg_P: 514.321960,subg_A: 996.288574
-ODME #45 total abs gap= 26033.980469,subg_link: 571.284851,subg_P: 526.982849,subg_A: 964.396545
-ODME #46 total abs gap= 25386.701172,subg_link: 557.217285,subg_P: 536.650635,subg_A: 931.914551
-ODME #47 total abs gap= 24744.990234,subg_link: 543.006714,subg_P: 543.923157,subg_A: 899.316772
-ODME #48 total abs gap= 24111.148438,subg_link: 528.886719,subg_P: 549.125549,subg_A: 866.956116
-ODME #49 total abs gap= 23487.824219,subg_link: 514.838562,subg_P: 551.942993,subg_A: 834.955017
-ODME #50 total abs gap= 22877.191406,subg_link: 501.003448,subg_P: 552.475830,subg_A: 803.629517
-ODME #51 total abs gap= 22277.988281,subg_link: 487.328003,subg_P: 549.692749,subg_A: 773.088013
-ODME #52 total abs gap= 21696.468750,subg_link: 473.715210,subg_P: 541.221313,subg_A: 742.998413
-ODME #53 total abs gap= 21131.652344,subg_link: 460.395111,subg_P: 528.655396,subg_A: 713.470581
-ODME #54 total abs gap= 20593.367188,subg_link: 447.449768,subg_P: 511.754120,subg_A: 684.585876
-ODME #55 total abs gap= 20078.591797,subg_link: 435.140564,subg_P: 492.204895,subg_A: 656.721130
-ODME #56 total abs gap= 19579.373047,subg_link: 423.312653,subg_P: 470.486450,subg_A: 629.404419
-ODME #57 total abs gap= 19095.515625,subg_link: 411.961792,subg_P: 447.078522,subg_A: 602.690125
-ODME #58 total abs gap= 18628.150391,subg_link: 401.207550,subg_P: 422.481598,subg_A: 576.855347
-ODME #59 total abs gap= 18177.769531,subg_link: 390.995422,subg_P: 396.810364,subg_A: 551.770996
-ODME #60 total abs gap= 17745.515625,subg_link: 381.284821,subg_P: 370.394440,subg_A: 527.445618
-ODME #61 total abs gap= 17329.396484,subg_link: 372.026611,subg_P: 343.839844,subg_A: 503.898438
-ODME #62 total abs gap= 16927.703125,subg_link: 362.993958,subg_P: 317.250427,subg_A: 480.832520
-ODME #63 total abs gap= 16543.691406,subg_link: 354.207092,subg_P: 290.842957,subg_A: 458.345703
-ODME #64 total abs gap= 16175.376953,subg_link: 345.754089,subg_P: 264.886810,subg_A: 436.569733
-ODME #65 total abs gap= 15825.872070,subg_link: 337.711884,subg_P: 239.784164,subg_A: 415.653625
-ODME #66 total abs gap= 15495.974609,subg_link: 330.076569,subg_P: 215.676575,subg_A: 395.784027
-ODME #67 total abs gap= 15182.938477,subg_link: 322.837280,subg_P: 192.682846,subg_A: 376.954895
-ODME #68 total abs gap= 14884.909180,subg_link: 315.944122,subg_P: 170.824127,subg_A: 359.073914
-ODME #69 total abs gap= 14600.917969,subg_link: 309.361542,subg_P: 150.177734,subg_A: 342.329376
-ODME #70 total abs gap= 14330.363281,subg_link: 303.111816,subg_P: 130.610672,subg_A: 326.417572
-ODME #71 total abs gap= 14072.900391,subg_link: 297.183746,subg_P: 112.078621,subg_A: 311.583557
-ODME #72 total abs gap= 13828.762695,subg_link: 291.605164,subg_P: 94.725929,subg_A: 297.937653
-ODME #73 total abs gap= 13596.826172,subg_link: 286.294861,subg_P: 78.427887,subg_A: 285.062012
-ODME #74 total abs gap= 13376.457031,subg_link: 281.246338,subg_P: 63.197315,subg_A: 273.135986
-ODME #75 total abs gap= 13166.640625,subg_link: 276.424133,subg_P: 48.845406,subg_A: 261.949005
-ODME #76 total abs gap= 12968.119141,subg_link: 271.891327,subg_P: 35.436260,subg_A: 251.499146
-ODME #77 total abs gap= 12779.283203,subg_link: 267.575409,subg_P: 22.855217,subg_A: 241.555206
-ODME #78 total abs gap= 12599.637695,subg_link: 263.522705,subg_P: 11.180660,subg_A: 232.334259
-ODME #79 total abs gap= 12433.263672,subg_link: 259.688202,subg_P: 0.264566,subg_A: 223.563889
-ODME #80 total abs gap= 12276.121094,subg_link: 256.026611,subg_P: -10.023554,subg_A: 215.226669
-ODME #81 total abs gap= 12130.440430,subg_link: 252.539612,subg_P: -19.656181,subg_A: 207.308365
-ODME #82 total abs gap= 11999.581055,subg_link: 249.279968,subg_P: -28.528673,subg_A: 199.929428
-ODME #83 total abs gap= 11882.497070,subg_link: 246.209595,subg_P: -36.831909,subg_A: 192.936188
-ODME #84 total abs gap= 11770.735352,subg_link: 243.312408,subg_P: -44.686077,subg_A: 186.441116
-ODME #85 total abs gap= 11663.950195,subg_link: 240.542740,subg_P: -52.097004,subg_A: 180.309113
-ODME #86 total abs gap= 11565.394531,subg_link: 237.902420,subg_P: -59.097015,subg_A: 174.535461
-ODME #87 total abs gap= 11472.886719,subg_link: 235.411148,subg_P: -65.709175,subg_A: 169.069016
-ODME #88 total abs gap= 11386.437500,subg_link: 233.059647,subg_P: -71.932945,subg_A: 163.911331
-ODME #89 total abs gap= 11304.500000,subg_link: 230.839417,subg_P: -77.770004,subg_A: 159.030777
-ODME #90 total abs gap= 11226.208984,subg_link: 228.719681,subg_P: -83.177856,subg_A: 154.526352
-ODME #91 total abs gap= 11151.974609,subg_link: 226.665085,subg_P: -88.267914,subg_A: 150.241425
-ODME #92 total abs gap= 11080.580078,subg_link: 224.679489,subg_P: -93.084679,subg_A: 146.158936
-ODME #93 total abs gap= 11012.805664,subg_link: 222.773987,subg_P: -97.641144,subg_A: 142.239700
-ODME #94 total abs gap= 10947.913086,subg_link: 220.973297,subg_P: -101.890503,subg_A: 138.550064
-ODME #95 total abs gap= 10885.726563,subg_link: 219.252151,subg_P: -105.867172,subg_A: 135.000580
-ODME #96 total abs gap= 10826.179688,subg_link: 217.588974,subg_P: -109.553238,subg_A: 131.682114
-ODME #97 total abs gap= 10769.239258,subg_link: 216.016510,subg_P: -112.864731,subg_A: 128.633743
-ODME #98 total abs gap= 10714.632813,subg_link: 214.506561,subg_P: -115.931610,subg_A: 125.735603
-ODME #99 total abs gap= 10662.458008,subg_link: 213.064529,subg_P: -118.680336,subg_A: 122.980537
-ODME #100 total abs gap= 10612.035156,subg_link: 211.683990,subg_P: -121.261787,subg_A: 120.319435
-ODME #101 total abs gap= 10563.542969,subg_link: 210.363602,subg_P: -123.630249,subg_A: 117.774796
-ODME #102 total abs gap= 10517.322266,subg_link: 209.090164,subg_P: -125.772713,subg_A: 115.374168
-ODME #103 total abs gap= 10472.629883,subg_link: 207.848007,subg_P: -127.844582,subg_A: 113.102081
-ODME #104 total abs gap= 10429.328125,subg_link: 206.645996,subg_P: -129.835373,subg_A: 110.879944
-ODME #105 total abs gap= 10387.815430,subg_link: 205.517746,subg_P: -131.657623,subg_A: 108.750999
-ODME #106 total abs gap= 10348.253906,subg_link: 204.418442,subg_P: -133.269089,subg_A: 106.737480
-ODME #107 total abs gap= 10310.453125,subg_link: 203.357239,subg_P: -134.802155,subg_A: 104.846283
-ODME #108 total abs gap= 10273.873047,subg_link: 202.332214,subg_P: -136.166824,subg_A: 103.067764
-ODME #109 total abs gap= 10238.437500,subg_link: 201.340698,subg_P: -137.483643,subg_A: 101.379967
-ODME #110 total abs gap= 10204.103516,subg_link: 200.374481,subg_P: -138.760132,subg_A: 99.785873
-ODME #111 total abs gap= 10170.878906,subg_link: 199.438141,subg_P: -139.968048,subg_A: 98.231712
-ODME #112 total abs gap= 10139.306641,subg_link: 198.536804,subg_P: -141.016708,subg_A: 96.811455
-ODME #113 total abs gap= 10108.953125,subg_link: 197.673035,subg_P: -141.989517,subg_A: 95.434692
-ODME #114 total abs gap= 10079.714844,subg_link: 196.840530,subg_P: -142.891205,subg_A: 94.104958
-ODME #115 total abs gap= 10051.368164,subg_link: 196.040741,subg_P: -143.754807,subg_A: 92.813202
-ODME #116 total abs gap= 10023.812500,subg_link: 195.266022,subg_P: -144.602493,subg_A: 91.544167
-ODME #117 total abs gap= 9997.104492,subg_link: 194.534988,subg_P: -145.418594,subg_A: 90.305565
-ODME #118 total abs gap= 9971.226563,subg_link: 193.823471,subg_P: -146.196747,subg_A: 89.119629
-ODME #119 total abs gap= 9946.070313,subg_link: 193.119354,subg_P: -146.926636,subg_A: 87.957924
-ODME #120 total abs gap= 9921.525391,subg_link: 192.436050,subg_P: -147.606903,subg_A: 86.829666
-ODME #121 total abs gap= 9897.601563,subg_link: 191.768188,subg_P: -148.261017,subg_A: 85.755287
-ODME #122 total abs gap= 9874.370117,subg_link: 191.119156,subg_P: -148.885422,subg_A: 84.740067
-ODME #123 total abs gap= 9851.921875,subg_link: 190.486710,subg_P: -149.463226,subg_A: 83.745995
-ODME #124 total abs gap= 9830.287109,subg_link: 189.881149,subg_P: -149.983566,subg_A: 82.777069
-ODME #125 total abs gap= 9809.173828,subg_link: 189.294403,subg_P: -150.489014,subg_A: 81.819901
-ODME #126 total abs gap= 9788.470703,subg_link: 188.713043,subg_P: -150.982086,subg_A: 80.871696
-ODME #127 total abs gap= 9768.601563,subg_link: 188.150970,subg_P: -151.445526,subg_A: 79.948776
-ODME #128 total abs gap= 9749.145508,subg_link: 187.599716,subg_P: -151.898941,subg_A: 79.043159
-ODME #129 total abs gap= 9730.036133,subg_link: 187.065353,subg_P: -152.299042,subg_A: 78.173050
-ODME #130 total abs gap= 9711.623047,subg_link: 186.541351,subg_P: -152.693130,subg_A: 77.310493
-ODME #131 total abs gap= 9695.424805,subg_link: 186.035583,subg_P: -153.067108,subg_A: 76.473602
-ODME #132 total abs gap= 9679.562500,subg_link: 185.548157,subg_P: -153.410324,subg_A: 75.655205
-ODME #133 total abs gap= 9665.496094,subg_link: 185.069305,subg_P: -153.749786,subg_A: 74.846077
-ODME #134 total abs gap= 9652.150391,subg_link: 184.602081,subg_P: -154.082550,subg_A: 74.056160
-ODME #135 total abs gap= 9638.980469,subg_link: 184.146561,subg_P: -154.408737,subg_A: 73.290115
-ODME #136 total abs gap= 9626.774414,subg_link: 183.705078,subg_P: -154.724854,subg_A: 72.537354
-ODME #137 total abs gap= 9615.989258,subg_link: 183.269714,subg_P: -155.032867,subg_A: 71.788834
-ODME #138 total abs gap= 9605.344727,subg_link: 182.843323,subg_P: -155.334061,subg_A: 71.054581
-ODME #139 total abs gap= 9594.880859,subg_link: 182.425720,subg_P: -155.619507,subg_A: 70.335304
-ODME #140 total abs gap= 9584.626953,subg_link: 182.041962,subg_P: -155.862213,subg_A: 69.631233
-ODME #141 total abs gap= 9574.490234,subg_link: 181.658295,subg_P: -156.121719,subg_A: 68.922134
-ODME #142 total abs gap= 9564.439453,subg_link: 181.279922,subg_P: -156.375244,subg_A: 68.221321
-ODME #143 total abs gap= 9554.497070,subg_link: 180.905167,subg_P: -156.631607,subg_A: 67.531769
-ODME #144 total abs gap= 9544.645508,subg_link: 180.537384,subg_P: -156.887512,subg_A: 66.855202
-ODME #145 total abs gap= 9534.869141,subg_link: 180.176407,subg_P: -157.141190,subg_A: 66.189346
-ODME #146 total abs gap= 9525.281250,subg_link: 179.823486,subg_P: -157.384567,subg_A: 65.536079
-ODME #147 total abs gap= 9515.772461,subg_link: 179.476608,subg_P: -157.627045,subg_A: 64.891205
-ODME #148 total abs gap= 9506.349609,subg_link: 179.137894,subg_P: -157.866653,subg_A: 64.257088
-ODME #149 total abs gap= 9497.002930,subg_link: 178.806885,subg_P: -158.103424,subg_A: 63.632374
-ODME #150 total abs gap= 9487.752930,subg_link: 178.481918,subg_P: -158.339218,subg_A: 63.015945
-ODME #151 total abs gap= 9478.599609,subg_link: 178.163818,subg_P: -158.571899,subg_A: 62.410862
-ODME #152 total abs gap= 9469.554688,subg_link: 177.853241,subg_P: -158.798294,subg_A: 61.823578
-ODME #153 total abs gap= 9460.720703,subg_link: 177.550018,subg_P: -159.016449,subg_A: 61.249615
-ODME #154 total abs gap= 9451.973633,subg_link: 177.250366,subg_P: -159.237534,subg_A: 60.678394
-ODME #155 total abs gap= 9443.318359,subg_link: 176.956253,subg_P: -159.458496,subg_A: 60.113274
-ODME #156 total abs gap= 9434.759766,subg_link: 176.667114,subg_P: -159.679749,subg_A: 59.553654
-ODME #157 total abs gap= 9426.328125,subg_link: 176.385086,subg_P: -159.882202,subg_A: 59.001232
-ODME #158 total abs gap= 9418.106445,subg_link: 176.108047,subg_P: -160.070160,subg_A: 58.463127
-ODME #159 total abs gap= 9409.970703,subg_link: 175.833969,subg_P: -160.262650,subg_A: 57.943356
-ODME #160 total abs gap= 9401.921875,subg_link: 175.563110,subg_P: -160.458130,subg_A: 57.435959
-ODME #161 total abs gap= 9393.941406,subg_link: 175.296143,subg_P: -160.655136,subg_A: 56.930882
-ODME #162 total abs gap= 9386.037109,subg_link: 175.034500,subg_P: -160.852676,subg_A: 56.430851
-ODME #163 total abs gap= 9378.233398,subg_link: 174.780090,subg_P: -161.046082,subg_A: 55.936413
-ODME #164 total abs gap= 9370.527344,subg_link: 174.528992,subg_P: -161.242676,subg_A: 55.446041
-ODME #165 total abs gap= 9362.883789,subg_link: 174.282425,subg_P: -161.439911,subg_A: 54.961704
-ODME #166 total abs gap= 9355.360352,subg_link: 174.040192,subg_P: -161.636948,subg_A: 54.482124
-ODME #167 total abs gap= 9347.965820,subg_link: 173.802841,subg_P: -161.833084,subg_A: 54.007805
-ODME #168 total abs gap= 9340.625977,subg_link: 173.570114,subg_P: -162.027237,subg_A: 53.538406
-ODME #169 total abs gap= 9333.337891,subg_link: 173.341370,subg_P: -162.220795,subg_A: 53.073013
-ODME #170 total abs gap= 9326.135742,subg_link: 173.117905,subg_P: -162.399567,subg_A: 52.612556
-ODME #171 total abs gap= 9319.028320,subg_link: 172.898697,subg_P: -162.573318,subg_A: 52.159988
-ODME #172 total abs gap= 9311.988281,subg_link: 172.685577,subg_P: -162.749619,subg_A: 51.711838
-ODME #173 total abs gap= 9304.992188,subg_link: 172.475250,subg_P: -162.927704,subg_A: 51.267727
-ODME #174 total abs gap= 9298.064453,subg_link: 172.268341,subg_P: -163.105560,subg_A: 50.831150
-ODME #175 total abs gap= 9291.323242,subg_link: 172.064301,subg_P: -163.284882,subg_A: 50.396656
-ODME #176 total abs gap= 9284.710938,subg_link: 171.863846,subg_P: -163.458176,subg_A: 49.967705
-ODME #177 total abs gap= 9278.154297,subg_link: 171.665878,subg_P: -163.632904,subg_A: 49.540688
-ODME #178 total abs gap= 9271.615234,subg_link: 171.471161,subg_P: -163.810654,subg_A: 49.116322
-ODME #179 total abs gap= 9265.097656,subg_link: 171.280212,subg_P: -163.988724,subg_A: 48.695339
-ODME #180 total abs gap= 9258.608398,subg_link: 171.093277,subg_P: -164.164658,subg_A: 48.278225
-ODME #181 total abs gap= 9252.144531,subg_link: 170.909424,subg_P: -164.340622,subg_A: 47.864063
-ODME #182 total abs gap= 9245.725586,subg_link: 170.728973,subg_P: -164.516663,subg_A: 47.453022
-ODME #183 total abs gap= 9239.361328,subg_link: 170.553528,subg_P: -164.687912,subg_A: 47.046482
-ODME #184 total abs gap= 9233.058594,subg_link: 170.379852,subg_P: -164.861160,subg_A: 46.642555
-ODME #185 total abs gap= 9226.795898,subg_link: 170.208008,subg_P: -165.038284,subg_A: 46.241421
-ODME #186 total abs gap= 9220.611328,subg_link: 170.047409,subg_P: -165.210266,subg_A: 45.846313
-ODME #187 total abs gap= 9214.468750,subg_link: 169.889526,subg_P: -165.379684,subg_A: 45.453068
-ODME #188 total abs gap= 9208.364258,subg_link: 169.730865,subg_P: -165.548630,subg_A: 45.062782
-ODME #189 total abs gap= 9202.352539,subg_link: 169.572830,subg_P: -165.717743,subg_A: 44.676460
-ODME #190 total abs gap= 9196.603516,subg_link: 169.416351,subg_P: -165.882492,subg_A: 44.298954
-ODME #191 total abs gap= 9190.968750,subg_link: 169.260452,subg_P: -166.045517,subg_A: 43.926800
-ODME #192 total abs gap= 9185.465820,subg_link: 169.105820,subg_P: -166.198608,subg_A: 43.559742
-ODME #193 total abs gap= 9180.023438,subg_link: 168.952759,subg_P: -166.349701,subg_A: 43.196533
-ODME #194 total abs gap= 9174.663086,subg_link: 168.801941,subg_P: -166.495239,subg_A: 42.838436
-ODME #195 total abs gap= 9169.444336,subg_link: 168.653412,subg_P: -166.638458,subg_A: 42.485790
-ODME #196 total abs gap= 9164.267578,subg_link: 168.506363,subg_P: -166.788406,subg_A: 42.136539
-ODME #197 total abs gap= 9159.144531,subg_link: 168.361649,subg_P: -166.941742,subg_A: 41.791595
-ODME #198 total abs gap= 9154.076172,subg_link: 168.220001,subg_P: -167.096375,subg_A: 41.452019
-ODME #199 total abs gap= 9149.064453,subg_link: 168.081039,subg_P: -167.251282,subg_A: 41.117817
-ODME #200 total abs gap= 9144.136719,subg_link: 167.944534,subg_P: -167.405807,subg_A: 40.789532
-ODME #201 total abs gap= 9139.286133,subg_link: 167.811417,subg_P: -167.560791,subg_A: 40.466534
-ODME #202 total abs gap= 9134.669922,subg_link: 167.688263,subg_P: -167.715103,subg_A: 40.159218
-ODME #203 total abs gap= 9130.113281,subg_link: 167.568665,subg_P: -167.870361,subg_A: 39.865540
-ODME #204 total abs gap= 9125.601563,subg_link: 167.448074,subg_P: -168.025681,subg_A: 39.573135
-ODME #205 total abs gap= 9121.136719,subg_link: 167.332199,subg_P: -168.178696,subg_A: 39.285496
-ODME #206 total abs gap= 9116.713867,subg_link: 167.216019,subg_P: -168.332962,subg_A: 38.997986
-ODME #207 total abs gap= 9112.339844,subg_link: 167.099731,subg_P: -168.487518,subg_A: 38.712502
-ODME #208 total abs gap= 9108.005859,subg_link: 166.984650,subg_P: -168.640381,subg_A: 38.431694
-ODME #209 total abs gap= 9103.714844,subg_link: 166.872101,subg_P: -168.789246,subg_A: 38.155106
-ODME #210 total abs gap= 9099.467773,subg_link: 166.761322,subg_P: -168.936966,subg_A: 37.882393
-ODME #211 total abs gap= 9095.272461,subg_link: 166.650970,subg_P: -169.083603,subg_A: 37.612640
-ODME #212 total abs gap= 9091.125000,subg_link: 166.541855,subg_P: -169.229050,subg_A: 37.346905
-ODME #213 total abs gap= 9087.035156,subg_link: 166.433640,subg_P: -169.373886,subg_A: 37.084053
-ODME #214 total abs gap= 9082.993164,subg_link: 166.326706,subg_P: -169.516830,subg_A: 36.824905
-ODME #215 total abs gap= 9079.000000,subg_link: 166.221481,subg_P: -169.650711,subg_A: 36.569164
-ODME #216 total abs gap= 9075.066406,subg_link: 166.117401,subg_P: -169.781204,subg_A: 36.316513
-ODME #217 total abs gap= 9071.197266,subg_link: 166.014099,subg_P: -169.913193,subg_A: 36.066921
-ODME #218 total abs gap= 9067.386719,subg_link: 165.912003,subg_P: -170.045700,subg_A: 35.820381
-ODME #219 total abs gap= 9063.622070,subg_link: 165.811890,subg_P: -170.178146,subg_A: 35.577026
-ODME #220 total abs gap= 9059.904297,subg_link: 165.714401,subg_P: -170.310730,subg_A: 35.335922
-ODME #221 total abs gap= 9056.240234,subg_link: 165.617065,subg_P: -170.444870,subg_A: 35.096516
-ODME #222 total abs gap= 9052.628906,subg_link: 165.521301,subg_P: -170.578949,subg_A: 34.860252
-ODME #223 total abs gap= 9049.068359,subg_link: 165.427368,subg_P: -170.713074,subg_A: 34.626083
-ODME #224 total abs gap= 9045.550781,subg_link: 165.336533,subg_P: -170.847275,subg_A: 34.394096
-ODME #225 total abs gap= 9042.052734,subg_link: 165.245346,subg_P: -170.982239,subg_A: 34.162617
-ODME #226 total abs gap= 9038.595703,subg_link: 165.155746,subg_P: -171.116348,subg_A: 33.934399
-ODME #227 total abs gap= 9035.162109,subg_link: 165.067245,subg_P: -171.250061,subg_A: 33.708511
-ODME #228 total abs gap= 9031.756836,subg_link: 164.979874,subg_P: -171.383560,subg_A: 33.484596
-ODME #229 total abs gap= 9028.382813,subg_link: 164.894394,subg_P: -171.514969,subg_A: 33.263485
-ODME #230 total abs gap= 9025.045898,subg_link: 164.810501,subg_P: -171.644897,subg_A: 33.044098
-ODME #231 total abs gap= 9021.722656,subg_link: 164.727554,subg_P: -171.775299,subg_A: 32.826836
-ODME #232 total abs gap= 9018.416992,subg_link: 164.645569,subg_P: -171.905594,subg_A: 32.611500
-ODME #233 total abs gap= 9015.138672,subg_link: 164.565109,subg_P: -172.035400,subg_A: 32.398510
-ODME #234 total abs gap= 9011.940430,subg_link: 164.485397,subg_P: -172.161255,subg_A: 32.191849
-ODME #235 total abs gap= 9008.785156,subg_link: 164.406448,subg_P: -172.286362,subg_A: 31.987715
-ODME #236 total abs gap= 9005.631836,subg_link: 164.327499,subg_P: -172.413025,subg_A: 31.782675
-ODME #237 total abs gap= 9002.488281,subg_link: 164.250214,subg_P: -172.539322,subg_A: 31.579006
-ODME #238 total abs gap= 8999.381836,subg_link: 164.173996,subg_P: -172.663757,subg_A: 31.376654
-ODME #239 total abs gap= 8996.356445,subg_link: 164.098663,subg_P: -172.783356,subg_A: 31.176012
-ODME #240 total abs gap= 8993.328125,subg_link: 164.023407,subg_P: -172.907028,subg_A: 30.975729
-ODME #241 total abs gap= 8990.296875,subg_link: 163.949615,subg_P: -173.031662,subg_A: 30.777493
-ODME #242 total abs gap= 8987.275391,subg_link: 163.877045,subg_P: -173.156540,subg_A: 30.580742
-ODME #243 total abs gap= 8984.328125,subg_link: 163.805954,subg_P: -173.275833,subg_A: 30.387667
-ODME #244 total abs gap= 8981.407227,subg_link: 163.735458,subg_P: -173.394958,subg_A: 30.195177
-ODME #245 total abs gap= 8978.523438,subg_link: 163.666061,subg_P: -173.513275,subg_A: 30.003933
-ODME #246 total abs gap= 8975.684570,subg_link: 163.598053,subg_P: -173.630859,subg_A: 29.814457
-ODME #247 total abs gap= 8972.836914,subg_link: 163.535339,subg_P: -173.750702,subg_A: 29.626980
-ODME #248 total abs gap= 8969.989258,subg_link: 163.472122,subg_P: -173.873444,subg_A: 29.436928
-ODME #249 total abs gap= 8967.142578,subg_link: 163.411896,subg_P: -173.993271,subg_A: 29.248875
-ODME #250 total abs gap= 8964.293945,subg_link: 163.353058,subg_P: -174.112320,subg_A: 29.061901
-ODME #251 total abs gap= 8961.441406,subg_link: 163.294357,subg_P: -174.221924,subg_A: 28.876961
-ODME #252 total abs gap= 8958.582031,subg_link: 163.235855,subg_P: -174.324661,subg_A: 28.694332
-ODME #253 total abs gap= 8955.716797,subg_link: 163.177536,subg_P: -174.424454,subg_A: 28.514093
-ODME #254 total abs gap= 8952.845703,subg_link: 163.120117,subg_P: -174.520157,subg_A: 28.336889
-ODME #255 total abs gap= 8949.973633,subg_link: 163.063019,subg_P: -174.617828,subg_A: 28.160637
-ODME #256 total abs gap= 8947.132813,subg_link: 163.006805,subg_P: -174.716080,subg_A: 27.986193
-ODME #257 total abs gap= 8944.290039,subg_link: 162.951431,subg_P: -174.814575,subg_A: 27.813261
-ODME #258 total abs gap= 8941.447266,subg_link: 162.897186,subg_P: -174.912491,subg_A: 27.642128
-ODME #259 total abs gap= 8938.613281,subg_link: 162.843323,subg_P: -175.010803,subg_A: 27.471739
-ODME #260 total abs gap= 8935.774414,subg_link: 162.790878,subg_P: -175.108276,subg_A: 27.303659
-ODME #261 total abs gap= 8932.950195,subg_link: 162.738770,subg_P: -175.205811,subg_A: 27.135771
-ODME #262 total abs gap= 8930.129883,subg_link: 162.687958,subg_P: -175.302429,subg_A: 26.969761
-ODME #263 total abs gap= 8927.277344,subg_link: 162.640076,subg_P: -175.396210,subg_A: 26.809004
-ODME #264 total abs gap= 8924.434570,subg_link: 162.591644,subg_P: -175.491440,subg_A: 26.647865
-ODME #265 total abs gap= 8921.605469,subg_link: 162.543564,subg_P: -175.586227,subg_A: 26.487392
-ODME #266 total abs gap= 8918.773438,subg_link: 162.496033,subg_P: -175.680466,subg_A: 26.327307
-ODME #267 total abs gap= 8915.970703,subg_link: 162.449341,subg_P: -175.773544,subg_A: 26.168108
-ODME #268 total abs gap= 8913.224609,subg_link: 162.403503,subg_P: -175.866119,subg_A: 26.009604
-ODME #269 total abs gap= 8910.480469,subg_link: 162.358322,subg_P: -175.957901,subg_A: 25.851704
-ODME #270 total abs gap= 8907.737305,subg_link: 162.313812,subg_P: -176.049011,subg_A: 25.694244
-ODME #271 total abs gap= 8904.998047,subg_link: 162.270508,subg_P: -176.139038,subg_A: 25.537846
-ODME #272 total abs gap= 8902.259766,subg_link: 162.227432,subg_P: -176.229233,subg_A: 25.381433
-ODME #273 total abs gap= 8899.528320,subg_link: 162.185242,subg_P: -176.318512,subg_A: 25.226227
-ODME #274 total abs gap= 8896.794922,subg_link: 162.143463,subg_P: -176.407745,subg_A: 25.071091
-ODME #275 total abs gap= 8894.064453,subg_link: 162.102371,subg_P: -176.496155,subg_A: 24.918322
-ODME #276 total abs gap= 8891.350586,subg_link: 162.061722,subg_P: -176.583984,subg_A: 24.768129
-ODME #277 total abs gap= 8888.666016,subg_link: 162.021790,subg_P: -176.671524,subg_A: 24.618286
-ODME #278 total abs gap= 8885.984375,subg_link: 161.982285,subg_P: -176.758316,subg_A: 24.468678
-ODME #279 total abs gap= 8883.302734,subg_link: 161.943375,subg_P: -176.844650,subg_A: 24.319380
-ODME #280 total abs gap= 8880.630859,subg_link: 161.905136,subg_P: -176.930542,subg_A: 24.170439
-ODME #281 total abs gap= 8877.951172,subg_link: 161.867432,subg_P: -177.015747,subg_A: 24.021955
-ODME #282 total abs gap= 8875.284180,subg_link: 161.829987,subg_P: -177.100845,subg_A: 23.873516
-ODME #283 total abs gap= 8872.611328,subg_link: 161.793457,subg_P: -177.184937,subg_A: 23.725969
-ODME #284 total abs gap= 8869.944336,subg_link: 161.756821,subg_P: -177.269196,subg_A: 23.577829
-ODME #285 total abs gap= 8867.281250,subg_link: 161.721176,subg_P: -177.352493,subg_A: 23.430824
-ODME #286 total abs gap= 8864.616211,subg_link: 161.685684,subg_P: -177.435577,subg_A: 23.283960
-ODME #287 total abs gap= 8861.958984,subg_link: 161.650620,subg_P: -177.518036,subg_A: 23.137478
-ODME #288 total abs gap= 8859.303711,subg_link: 161.616165,subg_P: -177.600006,subg_A: 22.991243
-ODME #289 total abs gap= 8856.644531,subg_link: 161.581726,subg_P: -177.681519,subg_A: 22.844990
-ODME #290 total abs gap= 8853.996094,subg_link: 161.548096,subg_P: -177.762421,subg_A: 22.699577
-ODME #291 total abs gap= 8851.347656,subg_link: 161.514679,subg_P: -177.843048,subg_A: 22.554476
-ODME #292 total abs gap= 8848.701172,subg_link: 161.481506,subg_P: -177.923416,subg_A: 22.409716
-ODME #293 total abs gap= 8846.058594,subg_link: 161.448929,subg_P: -178.002884,subg_A: 22.265486
-ODME #294 total abs gap= 8843.417969,subg_link: 161.416443,subg_P: -178.082352,subg_A: 22.121264
-ODME #295 total abs gap= 8840.778320,subg_link: 161.384766,subg_P: -178.160736,subg_A: 21.977768
-ODME #296 total abs gap= 8838.142578,subg_link: 161.352997,subg_P: -178.239029,subg_A: 21.834074
-ODME #297 total abs gap= 8835.508789,subg_link: 161.321625,subg_P: -178.316788,subg_A: 21.690983
-ODME #298 total abs gap= 8832.883789,subg_link: 161.290771,subg_P: -178.394135,subg_A: 21.548412
-ODME #299 total abs gap= 8830.255859,subg_link: 161.260193,subg_P: -178.470963,subg_A: 21.406082
-ODME #300 total abs gap= 8827.631836,subg_link: 161.229843,subg_P: -178.547363,subg_A: 21.264194
-ODME #301 total abs gap= 8825.013672,subg_link: 161.199890,subg_P: -178.623322,subg_A: 21.122477
-ODME #302 total abs gap= 8822.398438,subg_link: 161.170166,subg_P: -178.698807,subg_A: 20.981152
-ODME #303 total abs gap= 8819.792969,subg_link: 161.141327,subg_P: -178.772919,subg_A: 20.842154
-ODME #304 total abs gap= 8817.188477,subg_link: 161.112427,subg_P: -178.846954,subg_A: 20.703211
-ODME #305 total abs gap= 8814.586914,subg_link: 161.083466,subg_P: -178.920822,subg_A: 20.563965
-ODME #306 total abs gap= 8811.983398,subg_link: 161.054993,subg_P: -178.994370,subg_A: 20.424957
-ODME #307 total abs gap= 8809.379883,subg_link: 161.026703,subg_P: -179.067108,subg_A: 20.286089
-ODME #308 total abs gap= 8806.785156,subg_link: 160.998901,subg_P: -179.139679,subg_A: 20.147593
-ODME #309 total abs gap= 8804.196289,subg_link: 160.971161,subg_P: -179.212036,subg_A: 20.009018
-ODME #310 total abs gap= 8801.603516,subg_link: 160.943893,subg_P: -179.283569,subg_A: 19.871368
-ODME #311 total abs gap= 8799.017578,subg_link: 160.916931,subg_P: -179.355164,subg_A: 19.733400
-ODME #312 total abs gap= 8796.435547,subg_link: 160.890015,subg_P: -179.426147,subg_A: 19.595915
-ODME #313 total abs gap= 8793.857422,subg_link: 160.863434,subg_P: -179.495300,subg_A: 19.458643
-ODME #314 total abs gap= 8791.276367,subg_link: 160.837204,subg_P: -179.564026,subg_A: 19.321991
-ODME #315 total abs gap= 8788.710938,subg_link: 160.811691,subg_P: -179.632690,subg_A: 19.186014
-ODME #316 total abs gap= 8786.139648,subg_link: 160.790390,subg_P: -179.699829,subg_A: 19.054653
-ODME #317 total abs gap= 8783.574219,subg_link: 160.764343,subg_P: -179.769775,subg_A: 18.917061
-ODME #318 total abs gap= 8781.036133,subg_link: 160.740494,subg_P: -179.835968,subg_A: 18.782829
-ODME #319 total abs gap= 8778.540039,subg_link: 160.716522,subg_P: -179.901215,subg_A: 18.648525
-ODME #320 total abs gap= 8776.055664,subg_link: 160.693665,subg_P: -179.964920,subg_A: 18.515476
-ODME #321 total abs gap= 8773.581055,subg_link: 160.670731,subg_P: -180.028671,subg_A: 18.382507
-ODME #322 total abs gap= 8771.116211,subg_link: 160.648285,subg_P: -180.092041,subg_A: 18.249874
-ODME #323 total abs gap= 8768.657227,subg_link: 160.625916,subg_P: -180.155380,subg_A: 18.117340
-ODME #324 total abs gap= 8766.207031,subg_link: 160.604065,subg_P: -180.218643,subg_A: 17.985458
-ODME #325 total abs gap= 8763.764648,subg_link: 160.582336,subg_P: -180.282074,subg_A: 17.853645
-ODME #326 total abs gap= 8761.325195,subg_link: 160.560638,subg_P: -180.345795,subg_A: 17.721870
-ODME #327 total abs gap= 8758.892578,subg_link: 160.539215,subg_P: -180.409821,subg_A: 17.590532
-ODME #328 total abs gap= 8756.466797,subg_link: 160.517838,subg_P: -180.474060,subg_A: 17.459021
-ODME #329 total abs gap= 8754.043945,subg_link: 160.496689,subg_P: -180.538483,subg_A: 17.327337
-ODME #330 total abs gap= 8751.628906,subg_link: 160.475571,subg_P: -180.603271,subg_A: 17.196243
-ODME #331 total abs gap= 8749.236328,subg_link: 160.454712,subg_P: -180.666275,subg_A: 17.066517
-ODME #332 total abs gap= 8746.849609,subg_link: 160.433868,subg_P: -180.729019,subg_A: 16.936869
-ODME #333 total abs gap= 8744.468750,subg_link: 160.412994,subg_P: -180.792450,subg_A: 16.807180
-ODME #334 total abs gap= 8742.093750,subg_link: 160.392563,subg_P: -180.855698,subg_A: 16.677874
-ODME #335 total abs gap= 8739.718750,subg_link: 160.371704,subg_P: -180.920227,subg_A: 16.547897
-ODME #336 total abs gap= 8737.353516,subg_link: 160.351334,subg_P: -180.984039,subg_A: 16.418816
-ODME #337 total abs gap= 8734.991211,subg_link: 160.330963,subg_P: -181.048462,subg_A: 16.289482
-ODME #338 total abs gap= 8732.632813,subg_link: 160.310577,subg_P: -181.113342,subg_A: 16.160526
-ODME #339 total abs gap= 8730.302734,subg_link: 160.290482,subg_P: -181.177994,subg_A: 16.031713
-ODME #340 total abs gap= 8728.050781,subg_link: 160.272934,subg_P: -181.235779,subg_A: 15.905770
-ODME #341 total abs gap= 8725.872070,subg_link: 160.255127,subg_P: -181.291840,subg_A: 15.780287
-ODME #342 total abs gap= 8723.669922,subg_link: 160.235611,subg_P: -181.353622,subg_A: 15.653403
-ODME #343 total abs gap= 8721.459961,subg_link: 160.215942,subg_P: -181.417755,subg_A: 15.527074
-ODME #344 total abs gap= 8719.246094,subg_link: 160.196091,subg_P: -181.483856,subg_A: 15.400688
-ODME #345 total abs gap= 8717.048828,subg_link: 160.176208,subg_P: -181.550949,subg_A: 15.274805
-ODME #346 total abs gap= 8714.861328,subg_link: 160.156342,subg_P: -181.618591,subg_A: 15.148726
-ODME #347 total abs gap= 8712.676758,subg_link: 160.136490,subg_P: -181.686569,subg_A: 15.022974
-ODME #348 total abs gap= 8710.492188,subg_link: 160.116562,subg_P: -181.754486,subg_A: 14.897153
-ODME #349 total abs gap= 8708.305664,subg_link: 160.096710,subg_P: -181.822418,subg_A: 14.772073
-ODME #350 total abs gap= 8706.128906,subg_link: 160.077133,subg_P: -181.890106,subg_A: 14.647262
-ODME #351 total abs gap= 8703.948242,subg_link: 160.057205,subg_P: -181.957581,subg_A: 14.522907
-ODME #352 total abs gap= 8701.775391,subg_link: 160.037766,subg_P: -182.024414,subg_A: 14.399372
-ODME #353 total abs gap= 8699.605469,subg_link: 160.018311,subg_P: -182.091019,subg_A: 14.275848
-ODME #354 total abs gap= 8697.435547,subg_link: 159.998856,subg_P: -182.157120,subg_A: 14.152591
-ODME #355 total abs gap= 8695.277344,subg_link: 159.979599,subg_P: -182.222565,subg_A: 14.029865
-ODME #356 total abs gap= 8693.161133,subg_link: 159.961288,subg_P: -182.286057,subg_A: 13.910301
-ODME #357 total abs gap= 8691.075195,subg_link: 159.942383,subg_P: -182.350235,subg_A: 13.790300
-ODME #358 total abs gap= 8688.987305,subg_link: 159.923477,subg_P: -182.413742,subg_A: 13.670341
-ODME #359 total abs gap= 8686.906250,subg_link: 159.904602,subg_P: -182.476974,subg_A: 13.550634
-ODME #360 total abs gap= 8684.826172,subg_link: 159.885910,subg_P: -182.539673,subg_A: 13.430895
-ODME #361 total abs gap= 8682.748047,subg_link: 159.867462,subg_P: -182.601547,subg_A: 13.311622
-ODME #362 total abs gap= 8680.679688,subg_link: 159.848877,subg_P: -182.663208,subg_A: 13.192468
-ODME #363 total abs gap= 8678.613281,subg_link: 159.830917,subg_P: -182.723984,subg_A: 13.073957
-ODME #364 total abs gap= 8676.580078,subg_link: 159.812546,subg_P: -182.785004,subg_A: 12.955335
-ODME #365 total abs gap= 8674.551758,subg_link: 159.794724,subg_P: -182.845108,subg_A: 12.837309
-ODME #366 total abs gap= 8672.525391,subg_link: 159.776993,subg_P: -182.904816,subg_A: 12.719631
-ODME #367 total abs gap= 8670.508789,subg_link: 159.759323,subg_P: -182.964188,subg_A: 12.602401
-ODME #368 total abs gap= 8668.519531,subg_link: 159.741837,subg_P: -183.023056,subg_A: 12.485348
-ODME #369 total abs gap= 8666.532227,subg_link: 159.724380,subg_P: -183.081528,subg_A: 12.368875
-ODME #370 total abs gap= 8664.558594,subg_link: 159.707382,subg_P: -183.139557,subg_A: 12.252810
-ODME #371 total abs gap= 8662.607422,subg_link: 159.690002,subg_P: -183.197784,subg_A: 12.136717
-ODME #372 total abs gap= 8660.666016,subg_link: 159.672928,subg_P: -183.254929,subg_A: 12.021546
-ODME #373 total abs gap= 8658.729492,subg_link: 159.655975,subg_P: -183.311874,subg_A: 11.906466
-ODME #374 total abs gap= 8656.801758,subg_link: 159.639496,subg_P: -183.368500,subg_A: 11.791956
-ODME #375 total abs gap= 8654.904297,subg_link: 159.623306,subg_P: -183.423630,subg_A: 11.677752
-ODME #376 total abs gap= 8653.023438,subg_link: 159.607513,subg_P: -183.477737,subg_A: 11.564241
-ODME #377 total abs gap= 8651.152344,subg_link: 159.592285,subg_P: -183.531418,subg_A: 11.451239
-ODME #378 total abs gap= 8649.296875,subg_link: 159.577576,subg_P: -183.583679,subg_A: 11.338518
-ODME #379 total abs gap= 8647.506836,subg_link: 159.563812,subg_P: -183.633728,subg_A: 11.227290
-ODME #380 total abs gap= 8645.743164,subg_link: 159.547455,subg_P: -183.690109,subg_A: 11.114964
-ODME #381 total abs gap= 8644.035156,subg_link: 159.531998,subg_P: -183.745834,subg_A: 11.004412
-ODME #382 total abs gap= 8642.352539,subg_link: 159.516754,subg_P: -183.801620,subg_A: 10.894532
-ODME #383 total abs gap= 8640.695313,subg_link: 159.501373,subg_P: -183.857758,subg_A: 10.784451
-ODME #384 total abs gap= 8639.059570,subg_link: 159.486359,subg_P: -183.913742,subg_A: 10.674803
-ODME #385 total abs gap= 8637.446289,subg_link: 159.471329,subg_P: -183.969849,subg_A: 10.565474
-ODME #386 total abs gap= 8635.851563,subg_link: 159.456543,subg_P: -184.025879,subg_A: 10.456470
-ODME #387 total abs gap= 8634.283203,subg_link: 159.441956,subg_P: -184.081787,subg_A: 10.347464
-ODME #388 total abs gap= 8632.747070,subg_link: 159.427063,subg_P: -184.137680,subg_A: 10.238610
-ODME #389 total abs gap= 8631.228516,subg_link: 159.412048,subg_P: -184.193909,subg_A: 10.129772
-ODME #390 total abs gap= 8629.724609,subg_link: 159.397675,subg_P: -184.249802,subg_A: 10.021493
-ODME #391 total abs gap= 8628.236328,subg_link: 159.383240,subg_P: -184.306000,subg_A: 9.913325
-ODME #392 total abs gap= 8626.765625,subg_link: 159.368759,subg_P: -184.362045,subg_A: 9.805277
-ODME #393 total abs gap= 8625.300781,subg_link: 159.354309,subg_P: -184.418243,subg_A: 9.697509
-ODME #394 total abs gap= 8623.849609,subg_link: 159.339828,subg_P: -184.474487,subg_A: 9.589717
-ODME #395 total abs gap= 8622.509766,subg_link: 159.328171,subg_P: -184.525330,subg_A: 9.484130
-ODME #396 total abs gap= 8621.210938,subg_link: 159.320511,subg_P: -184.575577,subg_A: 9.379010
-ODME #397 total abs gap= 8619.930664,subg_link: 159.310074,subg_P: -184.630829,subg_A: 9.271592
-ODME #398 total abs gap= 8618.690430,subg_link: 159.299057,subg_P: -184.687592,subg_A: 9.164550
-ODME #399 total abs gap= 8617.492188,subg_link: 159.286682,subg_P: -184.745499,subg_A: 9.057106
-
-Done!
-CPU Running Time for column pool updating: 36.086000 s
-writing link_performance.csv..
-writing agent.csv..
-writing data for 41  zones 
-Output for assignment with 20 iterations. Traffic assignment completes!
-CPU Running Time for outputting simulation results: 1.157000 s
-free memory..
-done.
+writing demand.csv..
+o= 1 d= 1:326.509613
+o= 1 d= 2:176.942108
+o= 1 d= 3:271.405792
+o= 1 d= 4:22.197548
+o= 1 d= 5:143.397568
+o= 1 d= 6:131.057724
+o= 1 d= 7:117.015823
+o= 1 d= 8:8.297485
+o= 1 d= 9:214.529007
+o= 1 d= 10:23.190409
+o= 1 d= 11:223.464767
+o= 1 d= 12:16.311296
+o= 1 d= 13:96.449409
+o= 1 d= 14:275.235413
+o= 1 d= 15:115.030098
+o= 1 d= 16:87.159058
+o= 1 d= 17:65.741615
+o= 1 d= 18:25.601645
+o= 1 d= 19:47.799191
+o= 1 d= 20:16.878647
+o= 1 d= 21:68.365608
+o= 1 d= 22:9.715859
+o= 1 d= 23:39.501705
+o= 1 d= 24:26.452667
+o= 1 d= 25:31.842487
+o= 1 d= 26:15.318435
+o= 1 d= 27:26.239912
+o= 1 d= 28:36.310364
+o= 1 d= 29:20.353661
+o= 1 d= 30:14.112818
+o= 1 d= 31:62.124763
+o= 1 d= 32:61.699253
+o= 1 d= 33:25.601645
+o= 1 d= 34:75.528397
+o= 1 d= 35:11.630664
+o= 1 d= 36:33.402699
+o= 1 d= 37:56.522190
+o= 1 d= 38:63.968651
+o= 1 d= 39:11.701582
+o= 1 d= 40:9.857697
+o= 1 d= 41:243.534744
+o= 2 d= 1:151.844528
+o= 2 d= 2:82.287590
+o= 2 d= 3:126.218285
+o= 2 d= 4:10.323052
+o= 2 d= 5:66.687584
+o= 2 d= 6:60.948887
+o= 2 d= 7:54.418648
+o= 2 d= 8:3.858777
+o= 2 d= 9:99.767525
+o= 2 d= 10:10.784787
+o= 2 d= 11:103.923126
+o= 2 d= 12:7.585630
+o= 2 d= 13:44.854160
+o= 2 d= 14:127.999260
+o= 2 d= 15:53.495182
+o= 2 d= 16:40.533649
+o= 2 d= 17:30.573387
+o= 2 d= 18:11.906140
+o= 2 d= 19:22.229193
+o= 2 d= 20:7.849478
+o= 2 d= 21:31.793684
+o= 2 d= 22:4.518397
+o= 2 d= 23:18.370417
+o= 2 d= 24:12.301912
+o= 2 d= 25:14.808469
+o= 2 d= 26:7.123896
+o= 2 d= 27:12.202970
+o= 2 d= 28:16.886272
+o= 2 d= 29:9.465547
+o= 2 d= 30:6.563219
+o= 2 d= 31:28.891356
+o= 2 d= 32:28.693470
+o= 2 d= 33:11.906140
+o= 2 d= 34:35.124763
+o= 2 d= 35:5.408884
+o= 2 d= 36:15.534051
+o= 2 d= 37:26.285856
+o= 2 d= 38:29.748861
+o= 2 d= 39:5.441865
+o= 2 d= 40:4.584359
+o= 2 d= 41:113.256752
+o= 3 d= 1:368.347321
+o= 3 d= 2:199.614792
+o= 3 d= 3:306.182709
+o= 3 d= 4:25.041857
+o= 3 d= 5:161.771988
+o= 3 d= 6:147.850967
+o= 3 d= 7:132.009781
+o= 3 d= 8:9.360694
+o= 3 d= 9:242.017944
+o= 3 d= 10:26.161940
+o= 3 d= 11:252.098694
+o= 3 d= 12:18.401363
+o= 3 d= 13:108.808067
+o= 3 d= 14:310.503021
+o= 3 d= 15:129.769623
+o= 3 d= 16:98.327286
+o= 3 d= 17:74.165497
+o= 3 d= 18:28.882141
+o= 3 d= 19:53.923996
+o= 3 d= 20:19.041412
+o= 3 d= 21:77.125717
+o= 3 d= 22:10.960813
+o= 3 d= 23:44.563305
+o= 3 d= 24:29.842213
+o= 3 d= 25:35.922665
+o= 3 d= 26:17.281281
+o= 3 d= 27:29.602194
+o= 3 d= 28:40.963036
+o= 3 d= 29:22.961702
+o= 3 d= 30:15.921181
+o= 3 d= 31:70.085197
+o= 3 d= 32:69.605164
+o= 3 d= 33:28.882141
+o= 3 d= 34:85.206314
+o= 3 d= 35:13.120973
+o= 3 d= 36:37.682793
+o= 3 d= 37:63.764729
+o= 3 d= 38:72.165352
+o= 3 d= 39:13.200978
+o= 3 d= 40:11.120825
+o= 3 d= 41:274.740356
+o= 4 d= 1:83.480354
+o= 4 d= 2:45.239677
+o= 4 d= 3:69.391685
+o= 4 d= 4:5.675358
+o= 4 d= 5:36.663177
+o= 4 d= 6:33.508186
+o= 4 d= 7:29.918024
+o= 4 d= 8:2.121460
+o= 4 d= 9:54.849712
+o= 4 d= 10:5.929208
+o= 4 d= 11:57.134361
+o= 4 d= 12:4.170391
+o= 4 d= 13:24.659704
+o= 4 d= 14:70.370819
+o= 4 d= 15:29.410324
+o= 4 d= 16:22.284395
+o= 4 d= 17:16.808491
+o= 4 d= 18:6.545701
+o= 4 d= 19:12.221060
+o= 4 d= 20:4.315448
+o= 4 d= 21:17.479380
+o= 4 d= 22:2.484103
+o= 4 d= 23:10.099600
+o= 4 d= 24:6.763287
+o= 4 d= 25:8.141329
+o= 4 d= 26:3.916541
+o= 4 d= 27:6.708890
+o= 4 d= 28:9.283653
+o= 4 d= 29:5.203923
+o= 4 d= 30:3.608295
+o= 4 d= 31:15.883751
+o= 4 d= 32:15.774959
+o= 4 d= 33:6.545701
+o= 4 d= 34:19.310724
+o= 4 d= 35:2.973670
+o= 4 d= 36:8.540236
+o= 4 d= 37:14.451312
+o= 4 d= 38:16.355186
+o= 4 d= 39:2.991802
+o= 4 d= 40:2.520367
+o= 4 d= 41:62.265755
+o= 5 d= 1:129.999191
+o= 5 d= 2:70.449173
+o= 5 d= 3:108.059715
+o= 5 d= 4:8.837913
+o= 5 d= 5:57.093479
+o= 5 d= 6:52.180389
+o= 5 d= 7:46.589634
+o= 5 d= 8:3.303628
+o= 5 d= 9:85.414330
+o= 5 d= 10:9.233218
+o= 5 d= 11:88.972084
+o= 5 d= 12:6.494313
+o= 5 d= 13:38.401154
+o= 5 d= 14:109.584465
+o= 5 d= 15:45.799023
+o= 5 d= 16:34.702217
+o= 5 d= 17:26.174904
+o= 5 d= 18:10.193247
+o= 5 d= 19:19.031158
+o= 5 d= 20:6.720201
+o= 5 d= 21:27.219641
+o= 5 d= 22:3.868351
+o= 5 d= 23:15.727530
+o= 5 d= 24:10.532081
+o= 5 d= 25:12.678027
+o= 5 d= 26:6.099007
+o= 5 d= 27:10.447372
+o= 5 d= 28:14.456904
+o= 5 d= 29:8.103772
+o= 5 d= 30:5.618992
+o= 5 d= 31:24.734859
+o= 5 d= 32:24.565443
+o= 5 d= 33:10.193247
+o= 5 d= 34:30.071491
+o= 5 d= 35:4.630727
+o= 5 d= 36:13.299223
+o= 5 d= 37:22.504204
+o= 5 d= 38:25.469000
+o= 5 d= 39:4.658963
+o= 5 d= 40:3.924824
+o= 5 d= 41:96.962906
+o= 6 d= 1:156.038040
+o= 6 d= 2:84.560150
+o= 6 d= 3:129.704086
+o= 6 d= 4:10.608147
+o= 6 d= 5:68.529305
+o= 6 d= 6:62.632126
+o= 6 d= 7:55.921539
+o= 6 d= 8:3.965346
+o= 6 d= 9:102.522827
+o= 6 d= 10:11.082633
+o= 6 d= 11:106.793198
+o= 6 d= 12:7.795124
+o= 6 d= 13:46.092907
+o= 6 d= 14:131.534241
+o= 6 d= 15:54.972569
+o= 6 d= 16:41.653076
+o= 6 d= 17:31.417738
+o= 6 d= 18:12.234955
+o= 6 d= 19:22.843102
+o= 6 d= 20:8.066258
+o= 6 d= 21:32.671738
+o= 6 d= 22:4.643182
+o= 6 d= 23:18.877756
+o= 6 d= 24:12.641657
+o= 6 d= 25:15.217438
+o= 6 d= 26:7.320638
+o= 6 d= 27:12.539982
+o= 6 d= 28:17.352623
+o= 6 d= 29:9.726959
+o= 6 d= 30:6.744477
+o= 6 d= 31:29.689255
+o= 6 d= 32:29.485903
+o= 6 d= 33:12.234955
+o= 6 d= 34:36.094814
+o= 6 d= 35:5.558262
+o= 6 d= 36:15.963058
+o= 6 d= 37:27.011799
+o= 6 d= 38:30.570442
+o= 6 d= 39:5.592154
+o= 6 d= 40:4.710966
+o= 6 d= 41:116.384590
+o= 7 d= 1:163.157272
+o= 7 d= 2:88.418205
+o= 7 d= 3:135.621826
+o= 7 d= 4:11.092143
+o= 7 d= 5:71.655952
+o= 7 d= 6:65.489716
+o= 7 d= 7:58.472961
+o= 7 d= 8:4.146265
+o= 7 d= 9:107.200424
+o= 7 d= 10:11.588278
+o= 7 d= 11:111.665634
+o= 7 d= 12:8.150776
+o= 7 d= 13:48.195896
+o= 7 d= 14:137.535492
+o= 7 d= 15:57.480694
+o= 7 d= 16:43.553497
+o= 7 d= 17:32.851173
+o= 7 d= 18:12.793175
+o= 7 d= 19:23.885319
+o= 7 d= 20:8.434281
+o= 7 d= 21:34.162384
+o= 7 d= 22:4.855028
+o= 7 d= 23:19.739054
+o= 7 d= 24:13.218433
+o= 7 d= 25:15.911733
+o= 7 d= 26:7.654642
+o= 7 d= 27:13.112119
+o= 7 d= 28:18.144337
+o= 7 d= 29:10.170752
+o= 7 d= 30:7.052194
+o= 7 d= 31:31.043827
+o= 7 d= 32:30.831198
+o= 7 d= 33:12.793175
+o= 7 d= 34:37.741638
+o= 7 d= 35:5.811858
+o= 7 d= 36:16.691372
+o= 7 d= 37:28.244211
+o= 7 d= 38:31.965218
+o= 7 d= 39:5.847296
+o= 7 d= 40:4.925904
+o= 7 d= 41:121.694633
+o= 8 d= 1:11.410282
+o= 8 d= 2:6.183461
+o= 8 d= 3:9.484611
+o= 8 d= 4:0.775721
+o= 8 d= 5:5.011206
+o= 8 d= 6:4.579974
+o= 8 d= 7:4.089262
+o= 8 d= 8:0.289966
+o= 8 d= 9:7.496982
+o= 8 d= 10:0.810418
+o= 8 d= 11:7.809252
+o= 8 d= 12:0.570018
+o= 8 d= 13:3.370544
+o= 8 d= 14:9.618442
+o= 8 d= 15:4.019869
+o= 8 d= 16:3.045881
+o= 8 d= 17:2.297422
+o= 8 d= 18:0.894681
+o= 8 d= 19:1.670402
+o= 8 d= 20:0.589845
+o= 8 d= 21:2.389121
+o= 8 d= 22:0.339533
+o= 8 d= 23:1.380436
+o= 8 d= 24:0.924421
+o= 8 d= 25:1.112775
+o= 8 d= 26:0.535322
+o= 8 d= 27:0.916986
+o= 8 d= 28:1.268911
+o= 8 d= 29:0.711284
+o= 8 d= 30:0.493190
+o= 8 d= 31:2.171027
+o= 8 d= 32:2.156157
+o= 8 d= 33:0.894681
+o= 8 d= 34:2.639433
+o= 8 d= 35:0.406448
+o= 8 d= 36:1.167299
+o= 8 d= 37:1.975238
+o= 8 d= 38:2.235464
+o= 8 d= 39:0.408926
+o= 8 d= 40:0.344489
+o= 8 d= 41:8.510623
+o= 9 d= 1:401.017761
+o= 9 d= 2:217.319580
+o= 9 d= 3:333.339478
+o= 9 d= 4:27.262938
+o= 9 d= 5:176.120316
+o= 9 d= 6:160.964569
+o= 9 d= 7:143.718353
+o= 9 d= 8:10.190938
+o= 9 d= 9:263.483643
+o= 9 d= 10:28.482367
+o= 9 d= 11:274.458527
+o= 9 d= 12:20.033468
+o= 9 d= 13:118.458771
+o= 9 d= 14:338.042999
+o= 9 d= 15:141.279495
+o= 9 d= 16:107.048401
+o= 9 d= 17:80.743584
+o= 9 d= 18:31.443834
+o= 9 d= 19:58.706772
+o= 9 d= 20:20.730284
+o= 9 d= 21:83.966362
+o= 9 d= 22:11.932979
+o= 9 d= 23:48.515835
+o= 9 d= 24:32.489059
+o= 9 d= 25:39.108814
+o= 9 d= 26:18.814039
+o= 9 d= 27:32.227753
+o= 9 d= 28:44.596241
+o= 9 d= 29:24.998283
+o= 9 d= 30:17.333305
+o= 9 d= 31:76.301384
+o= 9 d= 32:75.778770
+o= 9 d= 33:31.443834
+o= 9 d= 34:92.763664
+o= 9 d= 35:14.284734
+o= 9 d= 36:41.025059
+o= 9 d= 37:69.420319
+o= 9 d= 38:78.566032
+o= 9 d= 39:14.371836
+o= 9 d= 40:12.107183
+o= 9 d= 41:299.108398
+o= 10 d= 1:77.628929
+o= 10 d= 2:42.068672
+o= 10 d= 3:64.527779
+o= 10 d= 4:5.277553
+o= 10 d= 5:34.093330
+o= 10 d= 6:31.159483
+o= 10 d= 7:27.820967
+o= 10 d= 8:1.972759
+o= 10 d= 9:51.005104
+o= 10 d= 10:5.513610
+o= 10 d= 11:53.129616
+o= 10 d= 12:3.878074
+o= 10 d= 13:22.931221
+o= 10 d= 14:65.438286
+o= 10 d= 15:27.348852
+o= 10 d= 16:20.722404
+o= 10 d= 17:15.630324
+o= 10 d= 18:6.086890
+o= 10 d= 19:11.364443
+o= 10 d= 20:4.012964
+o= 10 d= 21:16.254189
+o= 10 d= 22:2.309983
+o= 10 d= 23:9.391684
+o= 10 d= 24:6.289225
+o= 10 d= 25:7.570675
+o= 10 d= 26:3.642017
+o= 10 d= 27:6.238641
+o= 10 d= 28:8.632930
+o= 10 d= 29:4.839162
+o= 10 d= 30:3.355377
+o= 10 d= 31:14.770404
+o= 10 d= 32:14.669237
+o= 10 d= 33:6.086890
+o= 10 d= 34:17.957169
+o= 10 d= 35:2.765235
+o= 10 d= 36:7.941621
+o= 10 d= 37:13.438370
+o= 10 d= 38:15.208795
+o= 10 d= 39:2.782097
+o= 10 d= 40:2.343706
+o= 10 d= 41:57.901333
+o= 11 d= 1:365.616638
+o= 11 d= 2:198.134995
+o= 11 d= 3:303.912872
+o= 11 d= 4:24.856215
+o= 11 d= 5:160.572723
+o= 11 d= 6:146.754898
+o= 11 d= 7:131.031158
+o= 11 d= 8:9.291301
+o= 11 d= 9:240.223785
+o= 11 d= 10:25.967993
+o= 11 d= 11:250.229813
+o= 11 d= 12:18.264950
+o= 11 d= 13:108.001442
+o= 11 d= 14:308.201172
+o= 11 d= 15:128.807602
+o= 11 d= 16:97.598358
+o= 11 d= 17:73.615685
+o= 11 d= 18:28.668030
+o= 11 d= 19:53.524242
+o= 11 d= 20:18.900251
+o= 11 d= 21:76.553963
+o= 11 d= 22:10.879557
+o= 11 d= 23:44.232944
+o= 11 d= 24:29.620983
+o= 11 d= 25:35.656357
+o= 11 d= 26:17.153170
+o= 11 d= 27:29.382746
+o= 11 d= 28:40.659367
+o= 11 d= 29:22.791481
+o= 11 d= 30:15.803152
+o= 11 d= 31:69.565636
+o= 11 d= 32:69.089157
+o= 11 d= 33:28.668030
+o= 11 d= 34:84.574654
+o= 11 d= 35:13.023704
+o= 11 d= 36:37.403439
+o= 11 d= 37:63.292019
+o= 11 d= 38:71.630363
+o= 11 d= 39:13.103116
+o= 11 d= 40:11.038383
+o= 11 d= 41:272.703644
+o= 12 d= 1:22.430470
+o= 12 d= 2:12.155521
+o= 12 d= 3:18.644962
+o= 12 d= 4:1.524921
+o= 12 d= 5:9.851088
+o= 12 d= 6:9.003368
+o= 12 d= 7:8.038721
+o= 12 d= 8:0.570018
+o= 12 d= 9:14.737656
+o= 12 d= 10:1.593128
+o= 12 d= 11:15.351521
+o= 12 d= 12:1.120549
+o= 12 d= 13:6.625855
+o= 12 d= 14:18.908047
+o= 12 d= 15:7.902307
+o= 12 d= 16:5.987629
+o= 12 d= 17:4.516300
+o= 12 d= 18:1.758775
+o= 12 d= 19:3.283696
+o= 12 d= 20:1.159525
+o= 12 d= 21:4.696562
+o= 12 d= 22:0.667457
+o= 12 d= 23:2.713677
+o= 12 d= 24:1.817238
+o= 12 d= 25:2.187507
+o= 12 d= 26:1.052342
+o= 12 d= 27:1.802622
+o= 12 d= 28:2.494440
+o= 12 d= 29:1.398250
+o= 12 d= 30:0.969519
+o= 12 d= 31:4.267830
+o= 12 d= 32:4.238598
+o= 12 d= 33:1.758775
+o= 12 d= 34:5.188629
+o= 12 d= 35:0.799000
+o= 12 d= 36:2.294690
+o= 12 d= 37:3.882946
+o= 12 d= 38:4.394501
+o= 12 d= 39:0.803872
+o= 12 d= 40:0.677201
+o= 12 d= 41:16.730284
+o= 13 d= 1:241.176300
+o= 13 d= 2:130.698273
+o= 13 d= 3:200.473877
+o= 13 d= 4:16.396217
+o= 13 d= 5:105.920609
+o= 13 d= 6:96.805779
+o= 13 d= 7:86.433731
+o= 13 d= 8:6.128937
+o= 13 d= 9:158.461838
+o= 13 d= 10:17.129595
+o= 13 d= 11:165.062241
+o= 13 d= 12:12.048338
+o= 13 d= 13:71.242348
+o= 13 d= 14:203.302612
+o= 13 d= 15:84.966980
+o= 13 d= 16:64.380035
+o= 13 d= 17:48.560043
+o= 13 d= 18:18.910652
+o= 13 d= 19:35.306870
+o= 13 d= 20:12.467411
+o= 13 d= 21:50.498253
+o= 13 d= 22:7.176619
+o= 13 d= 23:29.177933
+o= 13 d= 24:19.539261
+o= 13 d= 25:23.520452
+o= 13 d= 26:11.314961
+o= 13 d= 27:19.382109
+o= 13 d= 28:26.820648
+o= 13 d= 29:15.034231
+o= 13 d= 30:10.424432
+o= 13 d= 31:45.888454
+o= 13 d= 32:45.574150
+o= 13 d= 33:18.910652
+o= 13 d= 34:55.789043
+o= 13 d= 35:8.590989
+o= 13 d= 36:24.672901
+o= 13 d= 37:41.750111
+o= 13 d= 38:47.250439
+o= 13 d= 39:8.643373
+o= 13 d= 40:7.281387
+o= 13 d= 41:179.886932
+o= 14 d= 1:264.386963
+o= 14 d= 2:143.276596
+o= 14 d= 3:219.767349
+o= 14 d= 4:17.974178
+o= 14 d= 5:116.114342
+o= 14 d= 6:106.122307
+o= 14 d= 7:94.752060
+o= 14 d= 8:6.718782
+o= 14 d= 9:173.712112
+o= 14 d= 10:18.778135
+o= 14 d= 11:180.947723
+o= 14 d= 12:13.207863
+o= 14 d= 13:78.098671
+o= 14 d= 14:222.868332
+o= 14 d= 15:93.144150
+o= 14 d= 16:70.575928
+o= 14 d= 17:53.233429
+o= 14 d= 18:20.730602
+o= 14 d= 19:38.704781
+o= 14 d= 20:13.667267
+o= 14 d= 21:55.358173
+o= 14 d= 22:7.867292
+o= 14 d= 23:31.985998
+o= 14 d= 24:21.419708
+o= 14 d= 25:25.784046
+o= 14 d= 26:12.403906
+o= 14 d= 27:21.247431
+o= 14 d= 28:29.401852
+o= 14 d= 29:16.481115
+o= 14 d= 30:11.427672
+o= 14 d= 31:50.304729
+o= 14 d= 32:49.960178
+o= 14 d= 33:20.730602
+o= 14 d= 34:61.158146
+o= 14 d= 35:9.417781
+o= 14 d= 36:27.047407
+o= 14 d= 37:45.768116
+o= 14 d= 38:51.797794
+o= 14 d= 39:9.475206
+o= 14 d= 40:7.982143
+o= 14 d= 41:197.199142
+o= 15 d= 1:150.479187
+o= 15 d= 2:81.547691
+o= 15 d= 3:125.083374
+o= 15 d= 4:10.230231
+o= 15 d= 5:66.087952
+o= 15 d= 6:60.400856
+o= 15 d= 7:53.929337
+o= 15 d= 8:3.824080
+o= 15 d= 9:98.870445
+o= 15 d= 10:10.687814
+o= 15 d= 11:102.988686
+o= 15 d= 12:7.517423
+o= 15 d= 13:44.450848
+o= 15 d= 14:126.848335
+o= 15 d= 15:53.014172
+o= 15 d= 16:40.169186
+o= 15 d= 17:30.298481
+o= 15 d= 18:11.799085
+o= 15 d= 19:22.029316
+o= 15 d= 20:7.778898
+o= 15 d= 21:31.507805
+o= 15 d= 22:4.477769
+o= 15 d= 23:18.205236
+o= 15 d= 24:12.191298
+o= 15 d= 25:14.675316
+o= 15 d= 26:7.059840
+o= 15 d= 27:12.093245
+o= 15 d= 28:16.734436
+o= 15 d= 29:9.380436
+o= 15 d= 30:6.504205
+o= 15 d= 31:28.631575
+o= 15 d= 32:28.435469
+o= 15 d= 33:11.799085
+o= 15 d= 34:34.808933
+o= 15 d= 35:5.360249
+o= 15 d= 36:15.394374
+o= 15 d= 37:26.049503
+o= 15 d= 38:29.481371
+o= 15 d= 39:5.392933
+o= 15 d= 40:4.543138
+o= 15 d= 41:112.238388
+o= 16 d= 1:162.962234
+o= 16 d= 2:88.312508
+o= 16 d= 3:135.459702
+o= 16 d= 4:11.078883
+o= 16 d= 5:71.570297
+o= 16 d= 6:65.411423
+o= 16 d= 7:58.403057
+o= 16 d= 8:4.141308
+o= 16 d= 9:107.072273
+o= 16 d= 10:11.574425
+o= 16 d= 11:111.532143
+o= 16 d= 12:8.141032
+o= 16 d= 13:48.138279
+o= 16 d= 14:137.371078
+o= 16 d= 15:57.411976
+o= 16 d= 16:43.501431
+o= 16 d= 17:32.811901
+o= 16 d= 18:12.777882
+o= 16 d= 19:23.856764
+o= 16 d= 20:8.424199
+o= 16 d= 21:34.121544
+o= 16 d= 22:4.849224
+o= 16 d= 23:19.715456
+o= 16 d= 24:13.202631
+o= 16 d= 25:15.892711
+o= 16 d= 26:7.645491
+o= 16 d= 27:13.096443
+o= 16 d= 28:18.122646
+o= 16 d= 29:10.158592
+o= 16 d= 30:7.043763
+o= 16 d= 31:31.006716
+o= 16 d= 32:30.794340
+o= 16 d= 33:12.777882
+o= 16 d= 34:37.696518
+o= 16 d= 35:5.804910
+o= 16 d= 36:16.671419
+o= 16 d= 37:28.210447
+o= 16 d= 38:31.927006
+o= 16 d= 39:5.840306
+o= 16 d= 40:4.920015
+o= 16 d= 41:121.549156
+o= 17 d= 1:90.404541
+o= 17 d= 2:48.992035
+o= 17 d= 3:75.147301
+o= 17 d= 4:6.146095
+o= 17 d= 5:39.704166
+o= 17 d= 6:36.287487
+o= 17 d= 7:32.399544
+o= 17 d= 8:2.297422
+o= 17 d= 9:59.399162
+o= 17 d= 10:6.421000
+o= 17 d= 11:61.873306
+o= 17 d= 12:4.516300
+o= 17 d= 13:26.705078
+o= 17 d= 14:76.207649
+o= 17 d= 15:31.849731
+o= 17 d= 16:24.132750
+o= 17 d= 17:18.202652
+o= 17 d= 18:7.088627
+o= 17 d= 19:13.234722
+o= 17 d= 20:4.673388
+o= 17 d= 21:18.929188
+o= 17 d= 22:2.690144
+o= 17 d= 23:10.937300
+o= 17 d= 24:7.324260
+o= 17 d= 25:8.816603
+o= 17 d= 26:4.241395
+o= 17 d= 27:7.265352
+o= 17 d= 28:10.053677
+o= 17 d= 29:5.635557
+o= 17 d= 30:3.907581
+o= 17 d= 31:17.201212
+o= 17 d= 32:17.083395
+o= 17 d= 33:7.088627
+o= 17 d= 34:20.912432
+o= 17 d= 35:3.220318
+o= 17 d= 36:9.248596
+o= 17 d= 37:15.649961
+o= 17 d= 38:17.711750
+o= 17 d= 39:3.239954
+o= 17 d= 40:2.729416
+o= 17 d= 41:67.430321
+o= 18 d= 1:99.669304
+o= 18 d= 2:54.012794
+o= 18 d= 3:82.848480
+o= 18 d= 4:6.775954
+o= 18 d= 5:43.773094
+o= 18 d= 6:40.006271
+o= 18 d= 7:35.719883
+o= 18 d= 8:2.532865
+o= 18 d= 9:65.486450
+o= 18 d= 10:7.079031
+o= 18 d= 11:68.214157
+o= 18 d= 12:4.979136
+o= 18 d= 13:29.441843
+o= 18 d= 14:84.017494
+o= 18 d= 15:35.113728
+o= 18 d= 16:26.605902
+o= 18 d= 17:20.068081
+o= 18 d= 18:7.815078
+o= 18 d= 19:14.591031
+o= 18 d= 20:5.152323
+o= 18 d= 21:20.869072
+o= 18 d= 22:2.965833
+o= 18 d= 23:12.058167
+o= 18 d= 24:8.074859
+o= 18 d= 25:9.720139
+o= 18 d= 26:4.676057
+o= 18 d= 27:8.009913
+o= 18 d= 28:11.083988
+o= 18 d= 29:6.213095
+o= 18 d= 30:4.308034
+o= 18 d= 31:18.964010
+o= 18 d= 32:18.834120
+o= 18 d= 33:7.815078
+o= 18 d= 34:23.055561
+o= 18 d= 35:3.550340
+o= 18 d= 36:10.196404
+o= 18 d= 37:17.253786
+o= 18 d= 38:19.526871
+o= 18 d= 39:3.571988
+o= 18 d= 40:3.009130
+o= 18 d= 41:74.340652
+o= 19 d= 1:65.731026
+o= 19 d= 2:35.620960
+o= 19 d= 3:54.637844
+o= 19 d= 4:4.468682
+o= 19 d= 5:28.867970
+o= 19 d= 6:26.383783
+o= 19 d= 7:23.556950
+o= 19 d= 8:1.670402
+o= 19 d= 9:43.187740
+o= 19 d= 10:4.668559
+o= 19 d= 11:44.986633
+o= 19 d= 12:3.283696
+o= 19 d= 13:19.416637
+o= 19 d= 14:55.408798
+o= 19 d= 15:23.157194
+o= 19 d= 16:17.546358
+o= 19 d= 17:13.234722
+o= 19 d= 18:5.153975
+o= 19 d= 19:9.622657
+o= 19 d= 20:3.397911
+o= 19 d= 21:13.762969
+o= 19 d= 22:1.955941
+o= 19 d= 23:7.952255
+o= 19 d= 24:5.325298
+o= 19 d= 25:6.410346
+o= 19 d= 26:3.083819
+o= 19 d= 27:5.282467
+o= 19 d= 28:7.309793
+o= 19 d= 29:4.097481
+o= 19 d= 30:2.841111
+o= 19 d= 31:12.506598
+o= 19 d= 32:12.420937
+o= 19 d= 33:5.153975
+o= 19 d= 34:15.204940
+o= 19 d= 35:2.341418
+o= 19 d= 36:6.724438
+o= 19 d= 37:11.378720
+o= 19 d= 38:12.877799
+o= 19 d= 39:2.355695
+o= 19 d= 40:1.984494
+o= 19 d= 41:49.027008
+o= 20 d= 1:23.210659
+o= 20 d= 2:12.578321
+o= 20 d= 3:19.293482
+o= 20 d= 4:1.577962
+o= 20 d= 5:10.193734
+o= 20 d= 6:9.316528
+o= 20 d= 7:8.318329
+o= 20 d= 8:0.589845
+o= 20 d= 9:15.250270
+o= 20 d= 10:1.648542
+o= 20 d= 11:15.885488
+o= 20 d= 12:1.159525
+o= 20 d= 13:6.856320
+o= 20 d= 14:19.565718
+o= 20 d= 15:8.177170
+o= 20 d= 16:6.195895
+o= 20 d= 17:4.673388
+o= 20 d= 18:1.819950
+o= 20 d= 19:3.397911
+o= 20 d= 20:1.199856
+o= 20 d= 21:4.859921
+o= 20 d= 22:0.690673
+o= 20 d= 23:2.808066
+o= 20 d= 24:1.880447
+o= 20 d= 25:2.263594
+o= 20 d= 26:1.088945
+o= 20 d= 27:1.865322
+o= 20 d= 28:2.581203
+o= 20 d= 29:1.446885
+o= 20 d= 30:1.003241
+o= 20 d= 31:4.416276
+o= 20 d= 32:4.386028
+o= 20 d= 33:1.819950
+o= 20 d= 34:5.369103
+o= 20 d= 35:0.826792
+o= 20 d= 36:2.374505
+o= 20 d= 37:4.018005
+o= 20 d= 38:4.547353
+o= 20 d= 39:0.831833
+o= 20 d= 40:0.700756
+o= 20 d= 41:17.312208
+o= 21 d= 1:94.012924
+o= 21 d= 2:50.947491
+o= 21 d= 3:78.146706
+o= 21 d= 4:6.391408
+o= 21 d= 5:41.288906
+o= 21 d= 6:37.735855
+o= 21 d= 7:33.692730
+o= 21 d= 8:2.389121
+o= 21 d= 9:61.770000
+o= 21 d= 10:6.677286
+o= 21 d= 11:64.342903
+o= 21 d= 12:4.696562
+o= 21 d= 13:27.770975
+o= 21 d= 14:79.249382
+o= 21 d= 15:33.120972
+o= 21 d= 16:25.095978
+o= 21 d= 17:18.929188
+o= 21 d= 18:7.371561
+o= 21 d= 19:13.762969
+o= 21 d= 20:4.859921
+o= 21 d= 21:19.684721
+o= 21 d= 22:2.797518
+o= 21 d= 23:11.373848
+o= 21 d= 24:7.616599
+o= 21 d= 25:9.168506
+o= 21 d= 26:4.410685
+o= 21 d= 27:7.555339
+o= 21 d= 28:10.454956
+o= 21 d= 29:5.860493
+o= 21 d= 30:4.063547
+o= 21 d= 31:17.887775
+o= 21 d= 32:17.765257
+o= 21 d= 33:7.371561
+o= 21 d= 34:21.747124
+o= 21 d= 35:3.348853
+o= 21 d= 36:9.617743
+o= 21 d= 37:16.274609
+o= 21 d= 38:18.418692
+o= 21 d= 39:3.369273
+o= 21 d= 40:2.838357
+o= 21 d= 41:70.121712
+o= 22 d= 1:13.360758
+o= 22 d= 2:7.240463
+o= 22 d= 3:11.105912
+o= 22 d= 4:0.908323
+o= 22 d= 5:5.867822
+o= 22 d= 6:5.362876
+o= 22 d= 7:4.788282
+o= 22 d= 8:0.339533
+o= 22 d= 9:8.778517
+o= 22 d= 10:0.948950
+o= 22 d= 11:9.144168
+o= 22 d= 12:0.667457
+o= 22 d= 13:3.946705
+o= 22 d= 14:11.262619
+o= 22 d= 15:4.707026
+o= 22 d= 16:3.566545
+o= 22 d= 17:2.690144
+o= 22 d= 18:1.047618
+o= 22 d= 19:1.955941
+o= 22 d= 20:0.690673
+o= 22 d= 21:2.797518
+o= 22 d= 22:0.397572
+o= 22 d= 23:1.616408
+o= 22 d= 24:1.082442
+o= 22 d= 25:1.302993
+o= 22 d= 26:0.626830
+o= 22 d= 27:1.073736
+o= 22 d= 28:1.485818
+o= 22 d= 29:0.832871
+o= 22 d= 30:0.577496
+o= 22 d= 31:2.542142
+o= 22 d= 32:2.524730
+o= 22 d= 33:1.047618
+o= 22 d= 34:3.090618
+o= 22 d= 35:0.475926
+o= 22 d= 36:1.366837
+o= 22 d= 37:2.312885
+o= 22 d= 38:2.617594
+o= 22 d= 39:0.478828
+o= 22 d= 40:0.403376
+o= 22 d= 41:9.965430
+o= 23 d= 1:54.320744
+o= 23 d= 2:29.437502
+o= 23 d= 3:45.153233
+o= 23 d= 4:3.692961
+o= 23 d= 5:23.856764
+o= 23 d= 6:21.803808
+o= 23 d= 7:19.467686
+o= 23 d= 8:1.380436
+o= 23 d= 9:35.690758
+o= 23 d= 10:3.858141
+o= 23 d= 11:37.177380
+o= 23 d= 12:2.713677
+o= 23 d= 13:16.046093
+o= 23 d= 14:45.790359
+o= 23 d= 15:19.137325
+o= 23 d= 16:14.500477
+o= 23 d= 17:10.937300
+o= 23 d= 18:4.259294
+o= 23 d= 19:7.952255
+o= 23 d= 20:2.808066
+o= 23 d= 21:11.373848
+o= 23 d= 22:1.616408
+o= 23 d= 23:6.571819
+o= 23 d= 24:4.400877
+o= 23 d= 25:5.297570
+o= 23 d= 26:2.548497
+o= 23 d= 27:4.365481
+o= 23 d= 28:6.040882
+o= 23 d= 29:3.386198
+o= 23 d= 30:2.347921
+o= 23 d= 31:10.335571
+o= 23 d= 32:10.264780
+o= 23 d= 33:4.259294
+o= 23 d= 34:12.565507
+o= 23 d= 35:1.934970
+o= 23 d= 36:5.557139
+o= 23 d= 37:9.403482
+o= 23 d= 38:10.642335
+o= 23 d= 39:1.946769
+o= 23 d= 40:1.640005
+o= 23 d= 41:40.516384
+o= 24 d= 1:36.376369
+o= 24 d= 2:19.713085
+o= 24 d= 3:30.237265
+o= 24 d= 4:2.473024
+o= 24 d= 5:15.975894
+o= 24 d= 6:14.601114
+o= 24 d= 7:13.036709
+o= 24 d= 8:0.924421
+o= 24 d= 9:23.900633
+o= 24 d= 10:2.583639
+o= 24 d= 11:24.896164
+o= 24 d= 12:1.817238
+o= 24 d= 13:10.745409
+o= 24 d= 14:30.663919
+o= 24 d= 15:12.815480
+o= 24 d= 16:9.710373
+o= 24 d= 17:7.324260
+o= 24 d= 18:2.852274
+o= 24 d= 19:5.325298
+o= 24 d= 20:1.880447
+o= 24 d= 21:7.616599
+o= 24 d= 22:1.082442
+o= 24 d= 23:4.400877
+o= 24 d= 24:2.947086
+o= 24 d= 25:3.547565
+o= 24 d= 26:1.706624
+o= 24 d= 27:2.923383
+o= 24 d= 28:4.045331
+o= 24 d= 29:2.267597
+o= 24 d= 30:1.572306
+o= 24 d= 31:6.921308
+o= 24 d= 32:6.873901
+o= 24 d= 33:2.852274
+o= 24 d= 34:8.414603
+o= 24 d= 35:1.295770
+o= 24 d= 36:3.721388
+o= 24 d= 37:6.297125
+o= 24 d= 38:7.126734
+o= 24 d= 39:1.303671
+o= 24 d= 40:1.098244
+o= 24 d= 41:27.132156
+o= 25 d= 1:43.788177
+o= 25 d= 2:23.729691
+o= 25 d= 3:36.398209
+o= 25 d= 4:2.976911
+o= 25 d= 5:19.231037
+o= 25 d= 6:17.576139
+o= 25 d= 7:15.692983
+o= 25 d= 8:1.112775
+o= 25 d= 9:28.770468
+o= 25 d= 10:3.110064
+o= 25 d= 11:29.968842
+o= 25 d= 12:2.187507
+o= 25 d= 13:12.934822
+o= 25 d= 14:36.911797
+o= 25 d= 15:15.426677
+o= 25 d= 16:11.688894
+o= 25 d= 17:8.816603
+o= 25 d= 18:3.433434
+o= 25 d= 19:6.410346
+o= 25 d= 20:2.263594
+o= 25 d= 21:9.168506
+o= 25 d= 22:1.302993
+o= 25 d= 23:5.297570
+o= 25 d= 24:3.547565
+o= 25 d= 25:4.270393
+o= 25 d= 26:2.054354
+o= 25 d= 27:3.519032
+o= 25 d= 28:4.869580
+o= 25 d= 29:2.729628
+o= 25 d= 30:1.892669
+o= 25 d= 31:8.331547
+o= 25 d= 32:8.274482
+o= 25 d= 33:3.433434
+o= 25 d= 34:10.129107
+o= 25 d= 35:1.559787
+o= 25 d= 36:4.479633
+o= 25 d= 37:7.580186
+o= 25 d= 38:8.578831
+o= 25 d= 39:1.569298
+o= 25 d= 40:1.322015
+o= 25 d= 41:32.660423
+o= 26 d= 1:21.065136
+o= 26 d= 2:11.415620
+o= 26 d= 3:17.510052
+o= 26 d= 4:1.432100
+o= 26 d= 5:9.251456
+o= 26 d= 6:8.455337
+o= 26 d= 7:7.549408
+o= 26 d= 8:0.535322
+o= 26 d= 9:13.840581
+o= 26 d= 10:1.496155
+o= 26 d= 11:14.417082
+o= 26 d= 12:1.052342
+o= 26 d= 13:6.222542
+o= 26 d= 14:17.757122
+o= 26 d= 15:7.421297
+o= 26 d= 16:5.623165
+o= 26 d= 17:4.241395
+o= 26 d= 18:1.651719
+o= 26 d= 19:3.083819
+o= 26 d= 20:1.088945
+o= 26 d= 21:4.410685
+o= 26 d= 22:0.626830
+o= 26 d= 23:2.548497
+o= 26 d= 24:1.706624
+o= 26 d= 25:2.054354
+o= 26 d= 26:0.988286
+o= 26 d= 27:1.692898
+o= 26 d= 28:2.342604
+o= 26 d= 29:1.313139
+o= 26 d= 30:0.910504
+o= 26 d= 31:4.008049
+o= 26 d= 32:3.980597
+o= 26 d= 33:1.651719
+o= 26 d= 34:4.872800
+o= 26 d= 35:0.750365
+o= 26 d= 36:2.155013
+o= 26 d= 37:3.646593
+o= 26 d= 38:4.127010
+o= 26 d= 39:0.754941
+o= 26 d= 40:0.635980
+o= 26 d= 41:15.711920
+o= 27 d= 1:36.083797
+o= 27 d= 2:19.554535
+o= 27 d= 3:29.994068
+o= 27 d= 4:2.453134
+o= 27 d= 5:15.847402
+o= 27 d= 6:14.483679
+o= 27 d= 7:12.931856
+o= 27 d= 8:0.916986
+o= 27 d= 9:23.708403
+o= 27 d= 10:2.562859
+o= 27 d= 11:24.695927
+o= 27 d= 12:1.802622
+o= 27 d= 13:10.658984
+o= 27 d= 14:30.417294
+o= 27 d= 15:12.712406
+o= 27 d= 16:9.632274
+o= 27 d= 17:7.265352
+o= 27 d= 18:2.829333
+o= 27 d= 19:5.282467
+o= 27 d= 20:1.865322
+o= 27 d= 21:7.555339
+o= 27 d= 22:1.073736
+o= 27 d= 23:4.365481
+o= 27 d= 24:2.923383
+o= 27 d= 25:3.519032
+o= 27 d= 26:1.692898
+o= 27 d= 27:2.899871
+o= 27 d= 28:4.012794
+o= 27 d= 29:2.249359
+o= 27 d= 30:1.559660
+o= 27 d= 31:6.865640
+o= 27 d= 32:6.818615
+o= 27 d= 33:2.829333
+o= 27 d= 34:8.346926
+o= 27 d= 35:1.285348
+o= 27 d= 36:3.691457
+o= 27 d= 37:6.246479
+o= 27 d= 38:7.069415
+o= 27 d= 39:1.293186
+o= 27 d= 40:1.089411
+o= 27 d= 41:26.913937
+o= 28 d= 1:49.932175
+o= 28 d= 2:27.059248
+o= 28 d= 3:41.505306
+o= 28 d= 4:3.394607
+o= 28 d= 5:21.929379
+o= 28 d= 6:20.042280
+o= 28 d= 7:17.894894
+o= 28 d= 8:1.268911
+o= 28 d= 9:32.807304
+o= 28 d= 10:3.546443
+o= 28 d= 11:34.173824
+o= 28 d= 12:2.494440
+o= 28 d= 13:14.749730
+o= 28 d= 14:42.090958
+o= 28 d= 15:17.591223
+o= 28 d= 16:13.328984
+o= 28 d= 17:10.053677
+o= 28 d= 18:3.915186
+o= 28 d= 19:7.309793
+o= 28 d= 20:2.581203
+o= 28 d= 21:10.454956
+o= 28 d= 22:1.485818
+o= 28 d= 23:6.040882
+o= 28 d= 24:4.045331
+o= 28 d= 25:4.869580
+o= 28 d= 26:2.342604
+o= 28 d= 27:4.012794
+o= 28 d= 28:5.552839
+o= 28 d= 29:3.112627
+o= 28 d= 30:2.158232
+o= 28 d= 31:9.500562
+o= 28 d= 32:9.435489
+o= 28 d= 33:3.915186
+o= 28 d= 34:11.550340
+o= 28 d= 35:1.778644
+o= 28 d= 36:5.108179
+o= 28 d= 37:8.643776
+o= 28 d= 38:9.782541
+o= 28 d= 39:1.789489
+o= 28 d= 40:1.507509
+o= 28 d= 41:37.243069
+o= 29 d= 1:28.086847
+o= 29 d= 2:15.220826
+o= 29 d= 3:23.346735
+o= 29 d= 4:1.909466
+o= 29 d= 5:12.335275
+o= 29 d= 6:11.273783
+o= 29 d= 7:10.065877
+o= 29 d= 8:0.713762
+o= 29 d= 9:18.454109
+o= 29 d= 10:1.994874
+o= 29 d= 11:19.222775
+o= 29 d= 12:1.403122
+o= 29 d= 13:8.296723
+o= 29 d= 14:23.676163
+o= 29 d= 15:9.895062
+o= 29 d= 16:7.497553
+o= 29 d= 17:5.655193
+o= 29 d= 18:2.202292
+o= 29 d= 19:4.111758
+o= 29 d= 20:1.451927
+o= 29 d= 21:5.880912
+o= 29 d= 22:0.835773
+o= 29 d= 23:3.397996
+o= 29 d= 24:2.275498
+o= 29 d= 25:2.739139
+o= 29 d= 26:1.317715
+o= 29 d= 27:2.257197
+o= 29 d= 28:3.123472
+o= 29 d= 29:1.750853
+o= 29 d= 30:1.214006
+o= 29 d= 31:5.344066
+o= 29 d= 32:5.307463
+o= 29 d= 33:2.202292
+o= 29 d= 34:6.497066
+o= 29 d= 35:1.000487
+o= 29 d= 36:2.873350
+o= 29 d= 37:4.862124
+o= 29 d= 38:5.502679
+o= 29 d= 39:1.006588
+o= 29 d= 40:0.847974
+o= 29 d= 41:20.949226
+o= 30 d= 1:19.407232
+o= 30 d= 2:10.517168
+o= 30 d= 3:16.131945
+o= 30 d= 4:1.319388
+o= 30 d= 5:8.523333
+o= 30 d= 6:7.789871
+o= 30 d= 7:6.955242
+o= 30 d= 8:0.493190
+o= 30 d= 9:12.751276
+o= 30 d= 10:1.378402
+o= 30 d= 11:13.282404
+o= 30 d= 12:0.969519
+o= 30 d= 13:5.732805
+o= 30 d= 14:16.359571
+o= 30 d= 15:6.837213
+o= 30 d= 16:5.180601
+o= 30 d= 17:3.907581
+o= 30 d= 18:1.521723
+o= 30 d= 19:2.841111
+o= 30 d= 20:1.003241
+o= 30 d= 21:4.063547
+o= 30 d= 22:0.577496
+o= 30 d= 23:2.347921
+o= 30 d= 24:1.572306
+o= 30 d= 25:1.892669
+o= 30 d= 26:0.910504
+o= 30 d= 27:1.559660
+o= 30 d= 28:2.158232
+o= 30 d= 29:1.209790
+o= 30 d= 30:0.838844
+o= 30 d= 31:3.692601
+o= 30 d= 32:3.667309
+o= 30 d= 33:1.521723
+o= 30 d= 34:4.489292
+o= 30 d= 35:0.691309
+o= 30 d= 36:1.985405
+o= 30 d= 37:3.359592
+o= 30 d= 38:3.802199
+o= 30 d= 39:0.695524
+o= 30 d= 40:0.585926
+o= 30 d= 41:14.475333
+o= 31 d= 1:85.430832
+o= 31 d= 2:46.296680
+o= 31 d= 3:71.012985
+o= 31 d= 4:5.807961
+o= 31 d= 5:37.519794
+o= 31 d= 6:34.291088
+o= 31 d= 7:30.617043
+o= 31 d= 8:2.171027
+o= 31 d= 9:56.131245
+o= 31 d= 10:6.067741
+o= 31 d= 11:58.469276
+o= 31 d= 12:4.267830
+o= 31 d= 13:25.235867
+o= 31 d= 14:72.014999
+o= 31 d= 15:30.097481
+o= 31 d= 16:22.805058
+o= 31 d= 17:17.201212
+o= 31 d= 18:6.698638
+o= 31 d= 19:12.506598
+o= 31 d= 20:4.416276
+o= 31 d= 21:17.887775
+o= 31 d= 22:2.542142
+o= 31 d= 23:10.335571
+o= 31 d= 24:6.921308
+o= 31 d= 25:8.331547
+o= 31 d= 26:4.008049
+o= 31 d= 27:6.865640
+o= 31 d= 28:9.500562
+o= 31 d= 29:5.325510
+o= 31 d= 30:3.692601
+o= 31 d= 31:16.254868
+o= 31 d= 32:16.143532
+o= 31 d= 33:6.698638
+o= 31 d= 34:19.761909
+o= 31 d= 35:3.043149
+o= 31 d= 36:8.739774
+o= 31 d= 37:14.788960
+o= 31 d= 38:16.737316
+o= 31 d= 39:3.061704
+o= 31 d= 40:2.579254
+o= 31 d= 41:63.720562
+o= 32 d= 1:84.845688
+o= 32 d= 2:45.979580
+o= 32 d= 3:70.526596
+o= 32 d= 4:5.768180
+o= 32 d= 5:37.262810
+o= 32 d= 6:34.056217
+o= 32 d= 7:30.407337
+o= 32 d= 8:2.156157
+o= 32 d= 9:55.746784
+o= 32 d= 10:6.026181
+o= 32 d= 11:58.068802
+o= 32 d= 12:4.238598
+o= 32 d= 13:25.063017
+o= 32 d= 14:71.521744
+o= 32 d= 15:29.891335
+o= 32 d= 16:22.648859
+o= 32 d= 17:17.083395
+o= 32 d= 18:6.652757
+o= 32 d= 19:12.420937
+o= 32 d= 20:4.386028
+o= 32 d= 21:17.765257
+o= 32 d= 22:2.524730
+o= 32 d= 23:10.264780
+o= 32 d= 24:6.873901
+o= 32 d= 25:8.274482
+o= 32 d= 26:3.980597
+o= 32 d= 27:6.818615
+o= 32 d= 28:9.435489
+o= 32 d= 29:5.289034
+o= 32 d= 30:3.667309
+o= 32 d= 31:16.143532
+o= 32 d= 32:16.032959
+o= 32 d= 33:6.652757
+o= 32 d= 34:19.626554
+o= 32 d= 35:3.022305
+o= 32 d= 36:8.679913
+o= 32 d= 37:14.687666
+o= 32 d= 38:16.622679
+o= 32 d= 39:3.040734
+o= 32 d= 40:2.561588
+o= 32 d= 41:63.284119
+o= 33 d= 1:35.206085
+o= 33 d= 2:19.078884
+o= 33 d= 3:29.264484
+o= 33 d= 4:2.393463
+o= 33 d= 5:15.461925
+o= 33 d= 6:14.131373
+o= 33 d= 7:12.617297
+o= 33 d= 8:0.894681
+o= 33 d= 9:23.131712
+o= 33 d= 10:2.500519
+o= 33 d= 11:24.095215
+o= 33 d= 12:1.758775
+o= 33 d= 13:10.399712
+o= 33 d= 14:29.677414
+o= 33 d= 15:12.403186
+o= 33 d= 16:9.397975
+o= 33 d= 17:7.088627
+o= 33 d= 18:2.760512
+o= 33 d= 19:5.153975
+o= 33 d= 20:1.819950
+o= 33 d= 21:7.371561
+o= 33 d= 22:1.047618
+o= 33 d= 23:4.259294
+o= 33 d= 24:2.852274
+o= 33 d= 25:3.433434
+o= 33 d= 26:1.651719
+o= 33 d= 27:2.829333
+o= 33 d= 28:3.915186
+o= 33 d= 29:2.194645
+o= 33 d= 30:1.521723
+o= 33 d= 31:6.698638
+o= 33 d= 32:6.652757
+o= 33 d= 33:2.760512
+o= 33 d= 34:8.143892
+o= 33 d= 35:1.254083
+o= 33 d= 36:3.601665
+o= 33 d= 37:6.094537
+o= 33 d= 38:6.897456
+o= 33 d= 39:1.261730
+o= 33 d= 40:1.062912
+o= 33 d= 41:26.259274
+o= 34 d= 1:103.960350
+o= 34 d= 2:56.338200
+o= 34 d= 3:86.415344
+o= 34 d= 4:7.067678
+o= 34 d= 5:45.657650
+o= 34 d= 6:41.728653
+o= 34 d= 7:37.257725
+o= 34 d= 8:2.641912
+o= 34 d= 9:68.305832
+o= 34 d= 10:7.383804
+o= 34 d= 11:71.150970
+o= 34 d= 12:5.193501
+o= 34 d= 13:30.709398
+o= 34 d= 14:87.634689
+o= 34 d= 15:36.625473
+o= 34 d= 16:27.751362
+o= 34 d= 17:20.932068
+o= 34 d= 18:8.151539
+o= 34 d= 19:15.219216
+o= 34 d= 20:5.374145
+o= 34 d= 21:21.767544
+o= 34 d= 22:3.093520
+o= 34 d= 23:12.577305
+o= 34 d= 24:8.422504
+o= 34 d= 25:10.138618
+o= 34 d= 26:4.877375
+o= 34 d= 27:8.354763
+o= 34 d= 28:11.561186
+o= 34 d= 29:6.480587
+o= 34 d= 30:4.493507
+o= 34 d= 31:19.780466
+o= 34 d= 32:19.644983
+o= 34 d= 33:8.151539
+o= 34 d= 34:24.048168
+o= 34 d= 35:3.703192
+o= 34 d= 36:10.635387
+o= 34 d= 37:17.996611
+o= 34 d= 38:20.367558
+o= 34 d= 39:3.725773
+o= 34 d= 40:3.138681
+o= 34 d= 41:77.541229
+o= 35 d= 1:15.993899
+o= 35 d= 2:8.667415
+o= 35 d= 3:13.294668
+o= 35 d= 4:1.087335
+o= 35 d= 5:7.024254
+o= 35 d= 6:6.419793
+o= 35 d= 7:5.731958
+o= 35 d= 8:0.406448
+o= 35 d= 9:10.508590
+o= 35 d= 10:1.135970
+o= 35 d= 11:10.946302
+o= 35 d= 12:0.799000
+o= 35 d= 13:4.724523
+o= 35 d= 14:13.482260
+o= 35 d= 15:5.634688
+o= 35 d= 16:4.269440
+o= 35 d= 17:3.220318
+o= 35 d= 18:1.254083
+o= 35 d= 19:2.341418
+o= 35 d= 20:0.826792
+o= 35 d= 21:3.348853
+o= 35 d= 22:0.475926
+o= 35 d= 23:1.934970
+o= 35 d= 24:1.295770
+o= 35 d= 25:1.559787
+o= 35 d= 26:0.750365
+o= 35 d= 27:1.285348
+o= 35 d= 28:1.778644
+o= 35 d= 29:0.997013
+o= 35 d= 30:0.691309
+o= 35 d= 31:3.043149
+o= 35 d= 32:3.022305
+o= 35 d= 33:1.254083
+o= 35 d= 34:3.699718
+o= 35 d= 35:0.569722
+o= 35 d= 36:1.636213
+o= 35 d= 37:2.768709
+o= 35 d= 38:3.133470
+o= 35 d= 39:0.573196
+o= 35 d= 40:0.482874
+o= 35 d= 41:11.929420
+o= 36 d= 1:45.933701
+o= 36 d= 2:24.892393
+o= 36 d= 3:38.181641
+o= 36 d= 4:3.122773
+o= 36 d= 5:20.173315
+o= 36 d= 6:18.437332
+o= 36 d= 7:16.461903
+o= 36 d= 8:1.167299
+o= 36 d= 9:30.180157
+o= 36 d= 10:3.262450
+o= 36 d= 11:31.437246
+o= 36 d= 12:2.294690
+o= 36 d= 13:13.568599
+o= 36 d= 14:38.720394
+o= 36 d= 15:16.182550
+o= 36 d= 16:12.261623
+o= 36 d= 17:9.248596
+o= 36 d= 18:3.601665
+o= 36 d= 19:6.724438
+o= 36 d= 20:2.374505
+o= 36 d= 21:9.617743
+o= 36 d= 22:1.366837
+o= 36 d= 23:5.557139
+o= 36 d= 24:3.721388
+o= 36 d= 25:4.479633
+o= 36 d= 26:2.155013
+o= 36 d= 27:3.691457
+o= 36 d= 28:5.108179
+o= 36 d= 29:2.863374
+o= 36 d= 30:1.985405
+o= 36 d= 31:8.739774
+o= 36 d= 32:8.679913
+o= 36 d= 33:3.601665
+o= 36 d= 34:10.625410
+o= 36 d= 35:1.636213
+o= 36 d= 36:4.699125
+o= 36 d= 37:7.951598
+o= 36 d= 38:8.999174
+o= 36 d= 39:1.646190
+o= 36 d= 40:1.386791
+o= 36 d= 41:34.260712
+o= 37 d= 1:77.726448
+o= 37 d= 2:42.121525
+o= 37 d= 3:64.608849
+o= 37 d= 4:5.284183
+o= 37 d= 5:34.136162
+o= 37 d= 6:31.198627
+o= 37 d= 7:27.855917
+o= 37 d= 8:1.975238
+o= 37 d= 9:51.069183
+o= 37 d= 10:5.520536
+o= 37 d= 11:53.196362
+o= 37 d= 12:3.882946
+o= 37 d= 13:22.960030
+o= 37 d= 14:65.520493
+o= 37 d= 15:27.383211
+o= 37 d= 16:20.748438
+o= 37 d= 17:15.649961
+o= 37 d= 18:6.094537
+o= 37 d= 19:11.378720
+o= 37 d= 20:4.018005
+o= 37 d= 21:16.274609
+o= 37 d= 22:2.312885
+o= 37 d= 23:9.403482
+o= 37 d= 24:6.297125
+o= 37 d= 25:7.580186
+o= 37 d= 26:3.646593
+o= 37 d= 27:6.246479
+o= 37 d= 28:8.643776
+o= 37 d= 29:4.845242
+o= 37 d= 30:3.359592
+o= 37 d= 31:14.788960
+o= 37 d= 32:14.687666
+o= 37 d= 33:6.094537
+o= 37 d= 34:17.979729
+o= 37 d= 35:2.768709
+o= 37 d= 36:7.951598
+o= 37 d= 37:13.455253
+o= 37 d= 38:15.227901
+o= 37 d= 39:2.785592
+o= 37 d= 40:2.346650
+o= 37 d= 41:57.974072
+o= 38 d= 1:87.966446
+o= 38 d= 2:47.670784
+o= 38 d= 3:73.120674
+o= 38 d= 4:5.980343
+o= 38 d= 5:38.633396
+o= 38 d= 6:35.308861
+o= 38 d= 7:31.525768
+o= 38 d= 8:2.235464
+o= 38 d= 9:57.797241
+o= 38 d= 10:6.247834
+o= 38 d= 11:60.204666
+o= 38 d= 12:4.394501
+o= 38 d= 13:25.984877
+o= 38 d= 14:74.152428
+o= 38 d= 15:30.990786
+o= 38 d= 16:23.481920
+o= 38 d= 17:17.711750
+o= 38 d= 18:6.897456
+o= 38 d= 19:12.877799
+o= 38 d= 20:4.547353
+o= 38 d= 21:18.418692
+o= 38 d= 22:2.617594
+o= 38 d= 23:10.642335
+o= 38 d= 24:7.126734
+o= 38 d= 25:8.578831
+o= 38 d= 26:4.127010
+o= 38 d= 27:7.069415
+o= 38 d= 28:9.782541
+o= 38 d= 29:5.483573
+o= 38 d= 30:3.802199
+o= 38 d= 31:16.737316
+o= 38 d= 32:16.622679
+o= 38 d= 33:6.897456
+o= 38 d= 34:20.348450
+o= 38 d= 35:3.133470
+o= 38 d= 36:8.999174
+o= 38 d= 37:15.227901
+o= 38 d= 38:17.234087
+o= 38 d= 39:3.152577
+o= 38 d= 40:2.655807
+o= 38 d= 41:65.611809
+o= 39 d= 1:16.091423
+o= 39 d= 2:8.720265
+o= 39 d= 3:13.375733
+o= 39 d= 4:1.093965
+o= 39 d= 5:7.067085
+o= 39 d= 6:6.458938
+o= 39 d= 7:5.766909
+o= 39 d= 8:0.408926
+o= 39 d= 9:10.572666
+o= 39 d= 10:1.142897
+o= 39 d= 11:11.013048
+o= 39 d= 12:0.803872
+o= 39 d= 13:4.753331
+o= 39 d= 14:13.564468
+o= 39 d= 15:5.669046
+o= 39 d= 16:4.295473
+o= 39 d= 17:3.239954
+o= 39 d= 18:1.261730
+o= 39 d= 19:2.355695
+o= 39 d= 20:0.831833
+o= 39 d= 21:3.369273
+o= 39 d= 22:0.478828
+o= 39 d= 23:1.946769
+o= 39 d= 24:1.303671
+o= 39 d= 25:1.569298
+o= 39 d= 26:0.754941
+o= 39 d= 27:1.293186
+o= 39 d= 28:1.789489
+o= 39 d= 29:1.003093
+o= 39 d= 30:0.695524
+o= 39 d= 31:3.061704
+o= 39 d= 32:3.040734
+o= 39 d= 33:1.261730
+o= 39 d= 34:3.722278
+o= 39 d= 35:0.573196
+o= 39 d= 36:1.646190
+o= 39 d= 37:2.785592
+o= 39 d= 38:3.152577
+o= 39 d= 39:0.576691
+o= 39 d= 40:0.485818
+o= 39 d= 41:12.002161
+o= 40 d= 1:13.555805
+o= 40 d= 2:7.346163
+o= 40 d= 3:11.268043
+o= 40 d= 4:0.921583
+o= 40 d= 5:5.953484
+o= 40 d= 6:5.441166
+o= 40 d= 7:4.858184
+o= 40 d= 8:0.344489
+o= 40 d= 9:8.906671
+o= 40 d= 10:0.962804
+o= 40 d= 11:9.277658
+o= 40 d= 12:0.677201
+o= 40 d= 13:4.004321
+o= 40 d= 14:11.427037
+o= 40 d= 15:4.775742
+o= 40 d= 16:3.618611
+o= 40 d= 17:2.729416
+o= 40 d= 18:1.062912
+o= 40 d= 19:1.984494
+o= 40 d= 20:0.700756
+o= 40 d= 21:2.838357
+o= 40 d= 22:0.403376
+o= 40 d= 23:1.640005
+o= 40 d= 24:1.098244
+o= 40 d= 25:1.322015
+o= 40 d= 26:0.635980
+o= 40 d= 27:1.089411
+o= 40 d= 28:1.507509
+o= 40 d= 29:0.845030
+o= 40 d= 30:0.585926
+o= 40 d= 31:2.579254
+o= 40 d= 32:2.561588
+o= 40 d= 33:1.062912
+o= 40 d= 34:3.135737
+o= 40 d= 35:0.482874
+o= 40 d= 36:1.386791
+o= 40 d= 37:2.346650
+o= 40 d= 38:2.655807
+o= 40 d= 39:0.485818
+o= 40 d= 40:0.409265
+o= 40 d= 41:10.110911
+o= 41 d= 1:338.895111
+o= 41 d= 2:183.654068
+o= 41 d= 3:281.701050
+o= 41 d= 4:23.039568
+o= 41 d= 5:148.837082
+o= 41 d= 6:136.029144
+o= 41 d= 7:121.454597
+o= 41 d= 8:8.612235
+o= 41 d= 9:222.666763
+o= 41 d= 10:24.070093
+o= 41 d= 11:231.941467
+o= 41 d= 12:16.930035
+o= 41 d= 13:100.108032
+o= 41 d= 14:285.675934
+o= 41 d= 15:119.393547
+o= 41 d= 16:90.465271
+o= 41 d= 17:68.235397
+o= 41 d= 18:26.572794
+o= 41 d= 19:49.612362
+o= 41 d= 20:17.518906
+o= 41 d= 21:70.958931
+o= 41 d= 22:10.084412
+o= 41 d= 23:41.000126
+o= 41 d= 24:27.456099
+o= 41 d= 25:33.050373
+o= 41 d= 26:15.899510
+o= 41 d= 27:27.235273
+o= 41 d= 28:37.687729
+o= 41 d= 29:21.125738
+o= 41 d= 30:14.648160
+o= 41 d= 31:64.481346
+o= 41 d= 32:64.039696
+o= 41 d= 33:26.572794
+o= 41 d= 34:78.393417
+o= 41 d= 35:12.071851
+o= 41 d= 36:34.669765
+o= 41 d= 37:58.666248
+o= 41 d= 38:66.395180
+o= 41 d= 39:12.145459
+o= 41 d= 40:10.231629
+o= 41 d= 41:252.772781

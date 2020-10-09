@@ -1,0 +1,6 @@
+name,node_id,control_type,control_type_name,cycle_length_in_second,x,y,geometry
+,26123,0,,0,39.969136,-0.132275,"<Point><coordinates>39.969136,-0.132275</coordinates></Point>"
+,27438,0,,0,39.858906,10.119048,"<Point><coordinates>39.858906,10.119048</coordinates></Point>"
+,7728,0,,0,39.969136,20.149912,"<Point><coordinates>39.969136,20.149912</coordinates></Point>"
+,7496,0,,0,39.969136,30.180776,"<Point><coordinates>39.969136,30.180776</coordinates></Point>"
+,6463,0,,0,40.079365,40.21164,"<Point><coordinates>40.079365,40.211640</coordinates></Point>"
