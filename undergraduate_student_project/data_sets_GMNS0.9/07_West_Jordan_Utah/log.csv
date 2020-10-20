@@ -1698,3 +1698,86 @@ o= 41 d= 38:66.395180
 o= 41 d= 39:12.145459
 o= 41 d= 40:10.231629
 o= 41 d= 41:252.772781
+number of zones = 41
+Step 1.6: Reading link data in link.csv... 
+number of links = 378
+number of links =460
+Step 1.7: Reading service arc in timing.csv...
+
+Step 1.8: Reading file section [demand_file_list] in setting.csv...
+number of timing records = 0
+
+allocating 4D memory for 0 zones
+allocating 3D memory for 0
+
+Step 1.8: Reading file section [demand_file_list] in setting.csv...
+o_zone_id:1, d_zone_id: 1, value = 326.509613
+o_zone_id:1, d_zone_id: 2, value = 176.942093
+o_zone_id:1, d_zone_id: 3, value = 271.405792
+o_zone_id:1, d_zone_id: 4, value = 22.197500
+o_zone_id:1, d_zone_id: 5, value = 143.397598
+o_zone_id:1, d_zone_id: 6, value = 131.057693
+total_demand_volume is 47757.937500
+
+Step 2: Assigning computing tasks to memory blocks...
+There are 4 networks in memory.
+
+Step 3: Column Generation for Traffic Assignment...
+Total Column Generation iteration: 20
+
+Current iteration number:0
+Current CPU time: 0.008000 s
+
+Current iteration number:1
+Current CPU time: 0.954000 s
+
+Current iteration number:2
+Current CPU time: 0.964000 s
+
+Current iteration number:3
+Current CPU time: 0.973000 s
+
+Current iteration number:4
+Current CPU time: 0.987000 s
+
+Current iteration number:5
+Current CPU time: 1.001000 s
+
+Current iteration number:6
+Current CPU time: 1.021000 s
+
+Current iteration number:7
+Current CPU time: 1.040000 s
+
+Current iteration number:8
+Current CPU time: 1.059000 s
+
+Current iteration number:9
+Current CPU time: 1.082000 s
+
+Current iteration number:10
+Current CPU time: 1.110000 s
+
+Current iteration number:11
+Current CPU time: 1.138000 s
+
+Current iteration number:12
+Current CPU time: 1.165000 s
+
+Current iteration number:13
+Current CPU time: 1.193000 s
+
+Current iteration number:14
+Current CPU time: 1.227000 s
+
+Current iteration number:15
+Current CPU time: 1.259000 s
+
+Current iteration number:16
+Current CPU time: 1.297000 s
+
+Current iteration number:17
+Current CPU time: 1.333000 s
+
+Current iteration number:18
+Current CPU time: 1.371000 s
